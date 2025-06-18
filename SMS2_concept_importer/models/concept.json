@@ -1,0 +1,61 @@
+{
+  "data": {
+    "conceptType": "CodeList",
+    "codeListEntryDefaultSortProperty": "Code",
+    "codeListEntryValueType": "String",
+    "codeListEntryValueMaxLength": 0,
+    "conformsTo": [
+      {
+        "label": {
+          "de": "Text in Deutsch",
+          "en": "Text in English",
+          "fr": "Texte en Français",
+          "it": "Testo in Italiano",
+          "rm": "Text in Rumantsch"
+        },
+        "uri": "string"
+      }
+    ],
+    "description": {
+      "de": "Text in Deutsch",
+      "en": "Text in English",
+      "fr": "Texte en Français",
+      "it": "Testo in Italiano",
+      "rm": "Text in Rumantsch"
+    },
+    "identifier": "Concept_identifier",
+    "keywords": [
+      {
+        "de": "Text in Deutsch",
+        "en": "Text in English",
+        "fr": "Texte en Français",
+        "it": "Testo in Italiano",
+        "rm": "Text in Rumantsch"
+      }
+    ],
+    "name": {
+      "de": "Text in Deutsch",
+      "en": "Text in English",
+      "fr": "Texte en Français",
+      "it": "Testo in Italiano",
+      "rm": "Text in Rumantsch"
+    },
+    "publisher": {
+      "identifier": "test-organization"
+    },
+    "responsibleDeputy": {
+      "email": "name.123@domain.com"
+    },
+    "responsiblePerson": {
+      "email": "name.123@domain.com"
+    },
+    "themes": [
+      {
+        "code": "101-AAA"
+      }
+    ],
+    "validFrom": "2024-12-25T00:00:00+00:00",
+    "validTo": "9999-12-31T23:59:59.9999999+00:00",
+    "version": "1.0.0"
+  }
+}

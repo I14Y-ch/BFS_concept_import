@@ -1,0 +1,134 @@
+{
+    "agency": {
+        "id": "6e7f0c77-97de-44db-a32c-87bc73fa21c3",
+        "abbreviation": {
+            "de": "BFS",
+            "en": "FSO",
+            "fr": "OFS",
+            "it": "UST",
+            "rm": "UST"
+        },
+        "identifier": "CH1",
+        "name": {
+            "de": "Bundesamt f\u00fcr Statistik",
+            "en": "Federal Statistical Office",
+            "fr": "Office f\u00e9d\u00e9ral de la statistique",
+            "it": "Ufficio federale di statistica",
+            "rm": "Uffizi federal da statistica"
+        }
+    },
+    "agencyId": "6e7f0c77-97de-44db-a32c-87bc73fa21c3",
+    "codeList": {
+        "agencyId": "6e7f0c77-97de-44db-a32c-87bc73fa21c3",
+        "definedVariables": [
+            null
+        ],
+        "id": "08d9e177-2c17-59a8-9296-69b4e956cca1",
+        "publicationLevel": "Unit",
+        "status": "Validated",
+        "codeListEntryValueMaxLength": 2,
+        "codeListEntryValueType": "String",
+        "description": {
+            "de": "L\u00e4ndercode (ISO alpha-2) des Landes, in dem der Gesch\u00e4ftspartner ans\u00e4ssig ist. Die L\u00e4nderliste stammt von der Weltzollorganisation (WZO) und ist spezifisch f\u00fcr den Zollbereich.",
+            "fr": "Code pays du pays de r\u00e9sidence du partenaire commercial. La liste des pays \u00e9mane de l'Organisation mondiale des douanes (WCO) et est sp\u00e9cifique au domaine douanier.",
+            "it": "Codice del paese di residenza del partner commerciale. L'elenco dei paesi proviene dall'Organizzazione Mondiale delle Dogane (OMD) ed \u00e8 specifico dell'area doganale."
+        },
+        "identifier": "LAND_TRADE_PARTNER",
+        "name": {
+            "de": "L\u00e4ndercode des Handelspartners",
+            "fr": "Code pays du partenaire commercial",
+            "it": "Codice paese del partner commerciale"
+        },
+        "validFrom": "2018-12-31T23:00:00+00:00",
+        "version": "2019.0.0",
+        "created": "2022-01-27T09:27:00.684299+00:00",
+        "modified": "2025-03-25T13:26:39.274771+00:00"
+    },
+    "codeListId": "08d9e177-2c17-59a8-9296-69b4e956cca1",
+    "id": "08d9e176-b0cf-c0fe-abab-861d6026f0ac",
+    "informationField": {
+        "agencyId": "6e7f0c77-97de-44db-a32c-87bc73fa21c3",
+        "definedVariables": [
+            null
+        ],
+        "id": "08d78e45-29b7-99bd-8620-35a3e393178c",
+        "thematicFieldId": "08d78e45-29b7-99a8-8620-35a3e393178c",
+        "description": {
+            "de": "Sammlung, Validierung, Vorbereitung und zur Verf\u00fcgung Stellung von administrative Daten f\u00fcr die Register und die Produktion von Statistiken.",
+            "fr": "Collecte, validation, pr\u00e9paration et mise \u00e0 disposition de donn\u00e9es administratives pour les registres et la production de statistiques.",
+            "it": "Raccolta, convalida, preparazione e messa a disposizione di dati amministrativi per i registri e la produzione di statistiche."
+        },
+        "identifier": "7",
+        "name": {
+            "de": "Administrative Daten",
+            "fr": "Donn\u00e9es administratives",
+            "it": "Dati amministrativi"
+        }
+    },
+    "informationFieldId": "08d78e45-29b7-99bd-8620-35a3e393178c",
+    "publicationLevel": "Unit",
+    "responsibleDeputy": {
+        "division": {
+            "de": "Abteilung IOR",
+            "en": "Abteilung IOR",
+            "fr": "Abteilung IOR",
+            "it": "Abteilung IOR",
+            "rm": "Abteilung IOR"
+        },
+        "id": "08d9a2cd-bae4-0199-9973-4a10ebd40d82",
+        "section": {
+            "de": "Sektion URD",
+            "en": "Sektion URD",
+            "fr": "Sektion URD",
+            "it": "Sektion URD",
+            "rm": "Sektion URD"
+        },
+        "identifier": "mathias.constantin@bfs.admin.ch",
+        "name": "Constantin Mathias BFS"
+    },
+    "responsibleOrgUnit": {
+        "id": "08d99f87-3045-8ade-817d-e6e24c95c807",
+        "identifier": "Monet\u00e4re Daten",
+        "name": "Monet\u00e4re Daten"
+    },
+    "responsiblePerson": {
+        "division": {
+            "de": "Abteilung IOR",
+            "en": "Abteilung IOR",
+            "fr": "Abteilung IOR",
+            "it": "Abteilung IOR",
+            "rm": "Abteilung IOR"
+        },
+        "id": "08d99f87-3044-62b6-9906-1dd7a2720c04",
+        "section": {
+            "de": "Sektion URD",
+            "en": "Sektion URD",
+            "fr": "Sektion URD",
+            "it": "Sektion URD",
+            "rm": "Sektion URD"
+        },
+        "identifier": "daniele.marx@bfs.admin.ch",
+        "name": "Marx Daniele BFS"
+    },
+    "status": "Validated",
+    "conformsTo": [],
+    "definedVariableType": "CodeList",
+    "description": {
+        "de": "L\u00e4ndercode (ISO alpha-2) des Landes, in dem der Gesch\u00e4ftspartner ans\u00e4ssig ist. Die L\u00e4nderliste stammt von der Weltzollorganisation (WZO) und ist spezifisch f\u00fcr den Zollbereich.",
+        "fr": "Code pays du pays de r\u00e9sidence du partenaire commercial. La liste des pays \u00e9mane de l'Organisation mondiale des douanes (WCO) et est sp\u00e9cifique au domaine douanier.",
+        "it": "Codice del paese di residenza del partner commerciale. L'elenco dei paesi proviene dall'Organizzazione Mondiale delle Dogane (OMD) ed \u00e8 specifico dell'area doganale."
+    },
+    "identifier": "LAND_TRADE_PARTNER",
+    "isIdentificator": false,
+    "keywords": [],
+    "name": {
+        "de": "L\u00e4ndercode des Handelspartners",
+        "fr": "Code pays du partenaire commercial",
+        "it": "Codice paese del partner commerciale"
+    },
+    "themeCodes": [],
+    "validFrom": "2018-12-31T23:00:00+00:00",
+    "version": "2019.0.0",
+    "created": "2022-01-27T09:23:33.846012+00:00",
+    "modified": "2025-03-25T13:27:00.252367+00:00"
+}

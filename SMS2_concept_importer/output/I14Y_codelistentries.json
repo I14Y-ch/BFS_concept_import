@@ -1,0 +1,76 @@
+{
+    "data": [
+        {
+            "annotations": [],
+            "code": "0c84394663",
+            "description": null,
+            "name": {
+                "de": "Post",
+                "en": "Post",
+                "fr": "Courrier postal",
+                "it": "Posta ordinaria"
+            },
+            "parentCode": null
+        },
+        {
+            "annotations": [],
+            "code": "1fc1caefa8",
+            "description": null,
+            "name": {
+                "de": "E-Mail-Adresse",
+                "en": "E-Mail",
+                "fr": "Adresse \u00e9lectronique",
+                "it": "E-mail"
+            },
+            "parentCode": null
+        },
+        {
+            "annotations": [],
+            "code": "5c12931e3f",
+            "description": null,
+            "name": {
+                "de": "Mobiltelefon",
+                "en": "Mobile Phone",
+                "fr": "T\u00e9l\u00e9phone portable",
+                "it": "Telefono cellulare"
+            },
+            "parentCode": null
+        },
+        {
+            "annotations": [],
+            "code": "a1c5444664",
+            "description": null,
+            "name": {
+                "de": "Fax",
+                "en": "Fax",
+                "fr": "T\u00e9l\u00e9copie",
+                "it": "Fax"
+            },
+            "parentCode": null
+        },
+        {
+            "annotations": [],
+            "code": "b37115f83e",
+            "description": null,
+            "name": {
+                "de": "Internet",
+                "en": "Web",
+                "fr": "Web",
+                "it": "Sito web"
+            },
+            "parentCode": null
+        },
+        {
+            "annotations": [],
+            "code": "c05134f579",
+            "description": null,
+            "name": {
+                "de": "Telefon",
+                "en": "Phone",
+                "fr": "T\u00e9l\u00e9phone",
+                "it": "Telefono"
+            },
+            "parentCode": null
+        }
+    ]
+}
