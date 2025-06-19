@@ -75,6 +75,132 @@ def map_CLE(CLE):
         "parentCode": CLE.get("parentCode", None)
     }
 
+
+# Create the JSON object to write to I14Y. The object is different depending on the type of the defined variable
+def map_DV(DV):
+    if DV['definedVariableType'] == "CodeList":
+        cl_id = DV["codeListId"]
+        CL = get_CL(cl_id, SMS2_token)
+        json.dump(CL, open("SMS2_concept_importer/output/CL.json", "w"), indent=4)
+        CLE = get_CLE(cl_id, SMS2_token)
+        json.dump(CLE, open("SMS2_concept_importer/output/CLE.json", "w"), indent=4)
+
+        concept_data = {
+            "data": {
+                "conceptType": DV["definedVariableType"],
+                "codeListEntryValueType": CL["codeListEntryValueType"],
+                "codeListEntryValueMaxLength": CL["codeListEntryValueMaxLength"],
+                "conformsTo": DV["conformsTo"],
+                "description": DV["description"],
+                "identifier": DV["identifier"],
+                "keywords": [],
+                "name": DV["name"],
+                "publisher": {
+                    "identifier": "i14y-test-organisation"  # Change organisation to BFS
+                },
+                "responsibleDeputy": {
+                    "email": DV["responsibleDeputy"]["identifier"]
+                },
+                "responsiblePerson": {
+                    "email": DV["responsiblePerson"]["identifier"]
+                },
+                "themes": [],
+                "validFrom": DV["validFrom"],
+                "validTo": DV.get("validTo", None),
+                "version": DV["version"],
+            }
+        }
+
+        CLE_data = {"data": [map_CLE(obj) for obj in CLE]}
+        json.dump(CLE_data, open("SMS2_concept_importer/output/I14Y_codelistentries.json", "w"), indent=4)
+
+    if DV['definedVariableType'] == "Numeric":
+        concept_data = {
+            "data": {
+                "conceptType": DV["definedVariableType"],
+                "maxValue": DV["maxValue"],
+                "measurementUnit": DV["measurementUnit"],
+                "minValue": DV["minValue"],
+                "numberDecimals": DV["numberDecimals"],
+                "conformsTo": DV["conformsTo"],
+                "description": DV["description"],
+                "identifier": DV["identifier"],
+                "keywords": [],
+                "name": DV["name"],
+                "publisher": {
+                    "identifier": "test-organization"  # Change organisation to BFS
+                },
+                "responsibleDeputy": {
+                    "email": DV["responsibleDeputy"]["identifier"]
+                },
+                "responsiblePerson": {
+                    "email": DV["responsiblePerson"]["identifier"]
+                },
+                "themes": [],
+                "validFrom": DV["validFrom"],
+                "validTo": DV.get("validTo", None),
+                "version": DV["version"],
+            }
+        }
+
+    if DV['definedVariableType'] == "String":
+        concept_data = {
+            "data": {
+                "conceptType": DV["definedVariableType"],
+                "maxLength": DV["maxLength"],
+                "minLength": DV["minLength"],
+                "pattern": DV["pattern"],
+                "conformsTo": DV["conformsTo"],
+                "description": DV["description"],
+                "identifier": DV["identifier"],
+                "keywords": [],
+                "name": DV["name"],
+                "publisher": {
+                    "identifier": "test-organization"  # Change organisation to BFS
+                },
+                "responsibleDeputy": {
+                    "email": DV["responsibleDeputy"]["identifier"]
+                },
+                "responsiblePerson": {
+                    "email": DV["responsiblePerson"]["identifier"]
+                },
+                "themes": [],
+                "validFrom": DV["validFrom"],
+                "validTo": DV.get("validTo", None),
+                "version": DV["version"],
+            }
+        }
+
+    if DV['definedVariableType'] == "Date":
+        concept_data = {
+            "data": {
+                "conceptType": DV["definedVariableType"],
+                "pattern": DV["pattern"],
+                "conformsTo": DV["conformsTo"],
+                "description": DV["description"],
+                "identifier": DV["identifier"],
+                "keywords": [],
+                "name": DV["name"],
+                "publisher": {
+                    "identifier": "test-organization"  # Change organisation to BFS
+                },
+                "responsibleDeputy": {
+                    "email": DV["responsibleDeputy"]["identifier"]
+                },
+                "responsiblePerson": {
+                    "email": DV["responsiblePerson"]["identifier"]
+                },
+                "themes": [],
+                "validFrom": DV["validFrom"],
+                "validTo": DV.get("validTo", None),
+                "version": DV["version"],
+            }
+        }
+        
+    # Write the JSON object (concept) to a file
+    json.dump(concept_data, open("SMS2_concept_importer/output/concept.json", "w"), indent=4)
+    return concept_data, CLE_data
+
 # Variables
 SMS2_token = os.environ.get("SMS2_token")
 I14Y_token = os.environ.get("I14Y_token")
@@ -83,131 +209,12 @@ dv_id = "08dac62e-ab42-57fc-8db1-9e36ad2655c1" # works because user e-mail exist
 
 ## Get the variables from SMS2
 DV = get_DV(dv_id, SMS2_token)
-# json.dump(DV, open("SMS2_concept_importer/output/DV.json", "w"), indent=4)
-
-## TODO: make this a function map_DV
-# Create the JSON object to write to I14Y. The object is different depending on the type of the defined variable
+json.dump(DV, open("SMS2_concept_importer/output/DV.json", "w"), indent=4)
 if DV['definedVariableType'] == "CodeList":
-    cl_id = DV["codeListId"]
-    CL = get_CL(cl_id, SMS2_token)
-    json.dump(CL, open("SMS2_concept_importer/output/CL.json", "w"), indent=4)
-    CLE = get_CLE(cl_id, SMS2_token)
-    json.dump(CLE, open("SMS2_concept_importer/output/CLE.json", "w"), indent=4)
+    CL = get_CL(DV["codeListId"], SMS2_token)
 
-    concept_data = {
-        "data": {
-            "conceptType": DV["definedVariableType"],
-            "codeListEntryValueType": CL["codeListEntryValueType"],
-            "codeListEntryValueMaxLength": CL["codeListEntryValueMaxLength"],
-            "conformsTo": DV["conformsTo"],
-            "description": DV["description"],
-            "identifier": DV["identifier"],
-            "keywords": [],
-            "name": DV["name"],
-            "publisher": {
-                "identifier": "i14y-test-organisation"  # Change organisation to BFS
-            },
-            "responsibleDeputy": {
-                "email": DV["responsibleDeputy"]["identifier"]
-            },
-            "responsiblePerson": {
-                "email": DV["responsiblePerson"]["identifier"]
-            },
-            "themes": [],
-            "validFrom": DV["validFrom"],
-            "validTo": DV.get("validTo", None),
-            "version": DV["version"],
-        }
-    }
-
-    CLE_data = {"data": [map_CLE(obj) for obj in CLE]}
-    json.dump(CLE_data, open("SMS2_concept_importer/output/I14Y_codelistentries.json", "w"), indent=4)
-
-if DV['definedVariableType'] == "Numeric":
-    concept_data = {
-        "data": {
-            "conceptType": DV["definedVariableType"],
-            "maxValue": DV["maxValue"],
-            "measurementUnit": DV["measurementUnit"],
-            "minValue": DV["minValue"],
-            "numberDecimals": DV["numberDecimals"],
-            "conformsTo": DV["conformsTo"],
-            "description": DV["description"],
-            "identifier": DV["identifier"],
-            "keywords": [],
-            "name": DV["name"],
-            "publisher": {
-                "identifier": "test-organization"  # Change organisation to BFS
-            },
-            "responsibleDeputy": {
-                "email": DV["responsibleDeputy"]["identifier"]
-            },
-            "responsiblePerson": {
-                "email": DV["responsiblePerson"]["identifier"]
-            },
-            "themes": [],
-            "validFrom": DV["validFrom"],
-            "validTo": DV.get("validTo", None),
-            "version": DV["version"],
-        }
-    }
-
-if DV['definedVariableType'] == "String":
-    concept_data = {
-        "data": {
-            "conceptType": DV["definedVariableType"],
-            "maxLength": DV["maxLength"],
-            "minLength": DV["minLength"],
-            "pattern": DV["pattern"],
-            "conformsTo": DV["conformsTo"],
-            "description": DV["description"],
-            "identifier": DV["identifier"],
-            "keywords": [],
-            "name": DV["name"],
-            "publisher": {
-                "identifier": "test-organization"  # Change organisation to BFS
-            },
-            "responsibleDeputy": {
-                "email": DV["responsibleDeputy"]["identifier"]
-            },
-            "responsiblePerson": {
-                "email": DV["responsiblePerson"]["identifier"]
-            },
-            "themes": [],
-            "validFrom": DV["validFrom"],
-            "validTo": DV.get("validTo", None),
-            "version": DV["version"],
-        }
-    }
-
-if DV['definedVariableType'] == "Date":
-    concept_data = {
-        "data": {
-            "conceptType": DV["definedVariableType"],
-            "pattern": DV["pattern"],
-            "conformsTo": DV["conformsTo"],
-            "description": DV["description"],
-            "identifier": DV["identifier"],
-            "keywords": [],
-            "name": DV["name"],
-            "publisher": {
-                "identifier": "test-organization"  # Change organisation to BFS
-            },
-            "responsibleDeputy": {
-                "email": DV["responsibleDeputy"]["identifier"]
-            },
-            "responsiblePerson": {
-                "email": DV["responsiblePerson"]["identifier"]
-            },
-            "themes": [],
-            "validFrom": DV["validFrom"],
-            "validTo": DV.get("validTo", None),
-            "version": DV["version"],
-        }
-    }
-
-# Write the JSON object (concept) to a file
-json.dump(concept_data, open("SMS2_concept_importer/output/concept.json", "w"), indent=4)
+# Map the DV to objects compatible with I14Y
+concept_data, CLE_data = map_DV(DV)
 
 ## TODO: make this a function post_DV
 ## POST concept data
