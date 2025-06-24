@@ -401,6 +401,5 @@ dv_id = "08d9e176-b0cf-c0fe-abab-861d6026f0ac"# LAND_TRADE_PARTNER
 
 concept_id = Copy_DV_to_I14Y(dv_id, SMS2_token, I14Y_token, I14Y_environment=I14Y_environment)
 
-response = put_registrationStatus(concept_id, I14Y_token, environment="DEV")
-print(response.text)
-put_publicationLevel(concept_id, I14Y_token, environment="DEV")
+put_registrationStatus(concept_id, I14Y_token, environment=I14Y_environment)
+put_publicationLevel(concept_id, I14Y_token, environment=I14Y_environment)

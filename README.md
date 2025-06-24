@@ -31,6 +31,8 @@ I14Y_token=your_i14y_api_token
 pip install requests python-dotenv
 ```
 
+---
+
 ### ⚙️ Usage
 
 1. Set environment variables in .env.
@@ -44,13 +46,17 @@ I14Y_environment = "DEV"  # or "REF", "ABN", "PROD"
 3. Run the script:
 
 ```
-python "SMS2_concept_importer 5.py"
+python "SMS2_concept_importer.py"
 ```
+
+---
 
 ### 📌 Notes
 - The script disables SSL verification (verify=False) for API calls. Use with caution in production.
 - Ensure the output directory exists or is created before running the script.
 - The script currently uses a hardcoded organization identifier for BFS — update this as needed.
+
+---
 
 ### 🧑‍💻 Author
 Developed for internal use by BFS (Swiss Federal Statistical Office) to streamline DV migration to I14Y.
