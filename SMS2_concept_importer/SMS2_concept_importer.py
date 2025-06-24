@@ -22,6 +22,17 @@ def _api_get_request(url: str, token) -> Optional[Dict[str, Any]]:
         return json.loads(response.content)
     return None
 
+def _api_put_request(url: str, token) -> Optional[Dict[str, Any]]:
+    """Make a PUT request to the API and return JSON response."""
+    headers = {
+        'Content-Type': 'application/json',
+        'Authorization': token
+    }
+    response = requests.put(url, headers=headers, verify=False)
+    print("Status Code:", response.status_code)
+    print("Response Text:", response.text)
+    return response
+
 
 def _api_post_request(url, token, payload):
 
@@ -63,7 +74,6 @@ def get_CLE(cl_id: str, token) -> Optional[Dict[str, Any]]:
     url = f"https://sms-be.sis.bfs.admin.ch/api/CodeLists/{cl_id}/codeListEntries"
     return _api_get_request(url, token)
 
-
 def get_Person(email: str, token, environment="DEV") -> Optional[Dict[str, Any]]:
     """gets the person metadata"""
     base_urls = {
@@ -80,6 +90,43 @@ def get_Person(email: str, token, environment="DEV") -> Optional[Dict[str, Any]]
 
     return _api_get_request(base_url, token)
 
+def put_registrationStatus(conceptId, token, environment="DEV"):
+    base_urls = {
+        #"DEV": f"https://api-d.i14y.admin.ch/api/partner/v1/concepts/{conceptId}/registration-status?status=Recorded",
+        #"REF": f"https://api-r.i14y.admin.ch/api/partner/v1/concepts/{conceptId}/registration-status?status=Recorded",
+        #"ABN": f"https://api-a.i14y.admin.ch/api/partner/v1/concepts/{conceptId}/registration-status?status=Recorded",
+        #"PROD": f"https://api.i14y.admin.ch/api/partner/v1/concepts/{conceptId}/registration-status?status=Recorded"
+        "DEV": f"https://api-d.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/registration-status?status=Recorded",
+        "REF": f"https://api-r.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/registration-status?status=Recorded",
+        "ABN": f"https://api-a.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/registration-status?status=Recorded",
+        "PROD": f"https://api.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/registration-status?status=Recorded"
+    }
+
+    base_url = base_urls.get(environment.upper())
+    if not base_url:
+        raise ValueError(
+            f"Invalid environment: {environment}. Choose from DEV, ABN, or PROD.")
+
+    # Put registrationStatus for concept
+    response = _api_put_request(base_url, token)
+    return response
+
+def put_publicationLevel(conceptId, token, environment="DEV"):
+    base_urls = {
+        "DEV": f"https://api-d.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/publication-level?level=Public",
+        "REF": f"https://api-r.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/publication-level?level=Public",
+        "ABN": f"https://api-a.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/publication-level?level=Public",
+        "PROD": f"https://api.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/publication-level?level=Public"
+    }
+
+    base_url = base_urls.get(environment.upper())
+    if not base_url:
+        raise ValueError(
+            f"Invalid environment: {environment}. Choose from DEV, ABN, or PROD.")
+
+    # Put registrationStatus for concept
+    response = _api_put_request(base_url, token)
+    return response
 
 def post_Person(iopPerson, token, environment="DEV") -> Optional[Dict[str, Any]]:
     """gets the peron metadata"""
@@ -324,6 +371,7 @@ def post_DV(concept_data, CLE_data, DV, I14Y_token, environment="DEV"):
             response = _api_post_request_file(url, I14Y_token, files)
             print("Migrated codelist:", DV["codeListId"])
             print("Status Code:", response.status_code)
+    return concept_id
 
 
 def Copy_DV_to_I14Y(dv_id, SMS2_token, I14Y_token, I14Y_environment="DEV"):
@@ -338,10 +386,10 @@ def Copy_DV_to_I14Y(dv_id, SMS2_token, I14Y_token, I14Y_environment="DEV"):
     check_users(iopPerson = DV["responsiblePerson"]["identifier"], I14Y_token = I14Y_token, environment=I14Y_environment)
 
     # Post the new objects to I14Y
-    post_DV(concept_data, CLE_data, DV, I14Y_token,
+    concept_id = post_DV(concept_data, CLE_data, DV, I14Y_token,
             environment=I14Y_environment)
     
-    return None
+    return concept_id
 
 # Variables
 SMS2_token = os.environ.get("SMS2_token")
@@ -351,4 +399,8 @@ I14Y_environment="DEV" # or "REF", "ABN", "PROD"
 dv_id = "08d9e176-b0cf-c0fe-abab-861d6026f0ac"# LAND_TRADE_PARTNER
 # dv_id = "08dac62e-ab42-57fc-8db1-9e36ad2655c1" # DV_COM_CHANNEL_EUROPASS
 
-Copy_DV_to_I14Y(dv_id, SMS2_token, I14Y_token, I14Y_environment=I14Y_environment)
+concept_id = Copy_DV_to_I14Y(dv_id, SMS2_token, I14Y_token, I14Y_environment=I14Y_environment)
+
+response = put_registrationStatus(concept_id, I14Y_token, environment="DEV")
+print(response.text)
+put_publicationLevel(concept_id, I14Y_token, environment="DEV")
