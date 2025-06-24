@@ -212,7 +212,7 @@ def map_DV(DV):
                 "keywords": [],
                 "name": DV["name"],
                 "publisher": {
-                    "identifier": "i14y-test-organisation"  # Change organisation to BFS
+                    "identifier": "CH1"  # Change organisation to BFS (CH1) # i14y-test-organisation
                 },
                 "responsibleDeputy": {
                     "email": DV["responsibleDeputy"]["identifier"]
@@ -245,7 +245,7 @@ def map_DV(DV):
                 "keywords": [],
                 "name": DV["name"],
                 "publisher": {
-                    "identifier": "test-organization"  # Change organisation to BFS
+                    "identifier": "CH1"  # Change organisation to BFS (CH1) # i14y-test-organisation
                 },
                 "responsibleDeputy": {
                     "email": DV["responsibleDeputy"]["identifier"]
@@ -273,7 +273,7 @@ def map_DV(DV):
                 "keywords": [],
                 "name": DV["name"],
                 "publisher": {
-                    "identifier": "test-organization"  # Change organisation to BFS
+                    "identifier": "CH1"  # Change organisation to BFS (CH1) # i14y-test-organisation
                 },
                 "responsibleDeputy": {
                     "email": DV["responsibleDeputy"]["identifier"]
@@ -299,7 +299,7 @@ def map_DV(DV):
                 "keywords": [],
                 "name": DV["name"],
                 "publisher": {
-                    "identifier": "test-organization"  # Change organisation to BFS
+                    "identifier": "CH1"  # Change organisation to BFS (CH1) # i14y-test-organisation
                 },
                 "responsibleDeputy": {
                     "email": DV["responsibleDeputy"]["identifier"]

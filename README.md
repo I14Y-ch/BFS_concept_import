@@ -48,9 +48,9 @@ python "SMS2_concept_importer 5.py"
 ```
 
 ### 📌 Notes
-The script disables SSL verification (verify=False) for API calls. Use with caution in production.
-Ensure the output directory exists or is created before running the script.
-The script currently uses hardcoded organization identifiers like "i14y-test-organisation" and "test-organization" — update these as needed.
+- The script disables SSL verification (verify=False) for API calls. Use with caution in production.
+- Ensure the output directory exists or is created before running the script.
+- The script currently uses a hardcoded organization identifier for BFS — update this as needed.
 
 ### 🧑‍💻 Author
 Developed for internal use by BFS (Swiss Federal Statistical Office) to streamline DV migration to I14Y.
