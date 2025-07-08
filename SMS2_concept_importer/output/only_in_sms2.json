@@ -1,0 +1,4682 @@
+{
+  "ACCOUNT": [
+    "1.0.0"
+  ],
+  "ACCOUNT_ENTRY": [
+    "1.0.0"
+  ],
+  "ACTIVITYSTATUS_SHAPE": [
+    "1.0.0"
+  ],
+  "AGE_CATEGORY": [
+    "1.0.0"
+  ],
+  "AK_ID": [
+    "1.0.0"
+  ],
+  "ALTER_KLASSEN_ERFUELLT": [
+    "1.6.0"
+  ],
+  "ANZAHL_LOGIERNAECHTE": [
+    "1.0.0"
+  ],
+  "AREA_NOAS": [
+    "1.0.0"
+  ],
+  "AREA_NOLC": [
+    "1.0.0"
+  ],
+  "AREA_NOLU": [
+    "1.0.0"
+  ],
+  "AUSBILDUNGSDAUER": [
+    "1.0.0"
+  ],
+  "AUSBILDUNGSFORM": [
+    "1.0.0"
+  ],
+  "BARTAB": [
+    "1.0.0"
+  ],
+  "BEART_ENT": [
+    "1.0.0"
+  ],
+  "BERUF_VZ70": [
+    "1.0.0"
+  ],
+  "BEWOHNERTYP": [
+    "1.0.0"
+  ],
+  "BIO": [
+    "1.0.0"
+  ],
+  "BM1UNTERRICHT": [
+    "1.0.0"
+  ],
+  "CATEGORY_BIRTH_PLACE_MUNICI": [
+    "1.0.0"
+  ],
+  "CAT_SCHEME_INQUIRY": [
+    "1.0.0"
+  ],
+  "CAT_SCHEME_TOPICS": [
+    "1.0.0"
+  ],
+  "CHARAKTER": [
+    "1.0.0"
+  ],
+  "CHOP_MS": [
+    "1.0.0"
+  ],
+  "CLASSE_ETAT_CIVIL": [
+    "1.0.0"
+  ],
+  "CL_CLEAR": [
+    "0.1.0"
+  ],
+  "CL_COUNT_FLG": [
+    "0.1.0"
+  ],
+  "CLEARANCE_CODE": [
+    "2019.0.0"
+  ],
+  "CL_FORM_CD": [
+    "0.1.0"
+  ],
+  "CL_IPI_ITEM_LIST": [
+    "0.5.0"
+  ],
+  "CL_KBOB_ITEM_LIST": [
+    "0.5.0"
+  ],
+  "CL_MULTIPLE_FLG": [
+    "0.1.0"
+  ],
+  "CL_PGAI_ITEM_LIST": [
+    "0.5.0"
+  ],
+  "CL_PGA_ITEM_LIST": [
+    "0.5.0"
+  ],
+  "CL_PPI_AGR_ITEM_LIST": [
+    "0.5.0"
+  ],
+  "CL_PPIINL_ITEM_LIST": [
+    "0.5.0"
+  ],
+  "CL_PPI_ITEM_LIST": [
+    "0.5.0"
+  ],
+  "CL_RHOLZ_ITEM_LIST": [
+    "0.5.0"
+  ],
+  "CL_SHOLZ_ITEM_LIST": [
+    "0.5.0"
+  ],
+  "CL_SPPI_GUEVE": [
+    "0.5.0"
+  ],
+  "CL_SPPI_Gueve_Luft_Item_List": [
+    "0.5.0"
+  ],
+  "CL_SPPI_PR_ITEM_LIST": [
+    "0.5.0"
+  ],
+  "CL_TV_SEX_CD": [
+    "0.1.0"
+  ],
+  "CL_VIC_SEX_CD": [
+    "0.1.0"
+  ],
+  "CODELIST_TEST": [
+    "1.0.0"
+  ],
+  "COFOG": [
+    "1.0.0"
+  ],
+  "COICOP": [
+    "1.1.0"
+  ],
+  "COMMENTAIRES_aHBB": [
+    "1.0.0"
+  ],
+  "COMMUNITYGROUP": [
+    "1.0.0"
+  ],
+  "CONDOMINIUMTYPE": [
+    "1.0.0"
+  ],
+  "CONF_STATUS": [
+    "1.0.0"
+  ],
+  "CONSULARDISTRICT": [
+    "1.0.0"
+  ],
+  "CONSULARSTATE": [
+    "1.0.0"
+  ],
+  "COS_2025_03_17": [
+    "1.0.0"
+  ],
+  "COUNT_DTH": [
+    "1.0.0"
+  ],
+  "CPA_L6": [
+    "2.1.0"
+  ],
+  "CPI_AGGREGATION_TYPE": [
+    "1.0.0"
+  ],
+  "CPI_BASIS": [
+    "1.0.0"
+  ],
+  "CPI_BASKET": [
+    "1.0.0"
+  ],
+  "CPI_POSITION_TYPE": [
+    "1.0.0"
+  ],
+  "DANGEROUS_GOODS_CLASS": [
+    "1.0.0"
+  ],
+  "DateOfMaritalStatus": [
+    "1.0.0"
+  ],
+  "DB_STATE": [
+    "1.0.0"
+  ],
+  "deathDate": [
+    "1.0.0"
+  ],
+  "deathPeriodFrom": [
+    "1.0.0"
+  ],
+  "deathPeriodTo": [
+    "1.0.0"
+  ],
+  "DECIMALS": [
+    "1.0.0"
+  ],
+  "DIA_BEH_NSTRING": [
+    "1.0.0"
+  ],
+  "DID": [
+    "1.0.0"
+  ],
+  "DIFF_AGGEUROSTAT_TOUR": [
+    "1.0.0"
+  ],
+  "DIFF_AGGPASTA_TOUR": [
+    "1.0.0"
+  ],
+  "DIFF_COMMENT_AVIALC": [
+    "1.0.0"
+  ],
+  "DIFF_COMMENT_BEVNAT": [
+    "1.0.0"
+  ],
+  "DIFF_COMMENT_LWZ": [
+    "1.0.1"
+  ],
+  "DIFF_INDIKATOREN_TOUR": [
+    "1.0.0"
+  ],
+  "DIFF_OTHER_ARP": [
+    "1.0.0"
+  ],
+  "DIFF_OTHER_CTRY": [
+    "1.0.0"
+  ],
+  "DIFF_YEAR": [
+    "1.0.0"
+  ],
+  "DISTANCETOHIGHVOLTAGEPOWERLINES": [
+    "1.0.0"
+  ],
+  "DISTANCETOLAKES": [
+    "1.0.0"
+  ],
+  "DISTANCETORIVERS": [
+    "1.0.0"
+  ],
+  "DOUBLENAT": [
+    "1.0.0"
+  ],
+  "DV_13_SALAIRE": [
+    "1.0.0"
+  ],
+  "DV_ABDUCTION_OHS": [
+    "1.0.0"
+  ],
+  "DV_ABORTION_METHOD": [
+    "1.0.0"
+  ],
+  "DV_ABORTION_PLACE": [
+    "1.0.0"
+  ],
+  "DV_ABORTION_REASON": [
+    "1.0.0"
+  ],
+  "DV_ABSCHLJAHR": [
+    "1.0.0"
+  ],
+  "DV_ABSCHLUSSNOETIG": [
+    "1.0.0"
+  ],
+  "DV_AC_ID": [
+    "1.0.0"
+  ],
+  "DV_ACTIVITY_PROHIBITION_KIND": [
+    "1.0.0"
+  ],
+  "DV_ACTUAL_HOURS": [
+    "1.0.0"
+  ],
+  "DV_ADJOUN": [
+    "1.0.0"
+  ],
+  "DV_ADJOUN_MM": [
+    "1.0.0"
+  ],
+  "DV_ADL_BATHING_SHOWERING": [
+    "2017.0.0"
+  ],
+  "DV_ADL_EATING": [
+    "2017.0.0"
+  ],
+  "DV_ADL_GETTING_DRESSED_UNDRESSED": [
+    "2017.0.0"
+  ],
+  "DV_ADL_GETTING_IN_OUT_BED": [
+    "2017.0.0"
+  ],
+  "DV_ADL_GOING_TO_TOILET": [
+    "2017.0.0"
+  ],
+  "DV_ADMIN_FORM": [
+    "1.0.0"
+  ],
+  "DV_AFTER_BREAK": [
+    "1.0.0"
+  ],
+  "DV_AFTER_BREAK2": [
+    "1.0.0"
+  ],
+  "DV_AG_RED": [
+    "1.0.0"
+  ],
+  "DV_AGREEMENT_5": [
+    "1.0.0"
+  ],
+  "DV_AGREEMENT_SCALE7": [
+    "1.0.0"
+  ],
+  "DV_AG_URLAUB": [
+    "1.0.0"
+  ],
+  "DV_AKTIV_VERS": [
+    "1.0.0"
+  ],
+  "DV_ALCOHOL_12M_MEN_5GLASSES_1OCCASION": [
+    "2017.0.0"
+  ],
+  "DV_ALCOHOL_12M_WOMEN_4GLASSES_1OCCASION": [
+    "2017.0.0"
+  ],
+  "DV_ALCOHOL_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_ALCOPOPS_12M_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_ALCOPOPS_12M_QUANTITY": [
+    "2017.0.0"
+  ],
+  "DV_ALCOPOPS_7DAY_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_ALCOPOPS_7DAY_QUANTITY": [
+    "2017.0.0"
+  ],
+  "DV_ALIMENTENBEVORSCHUSSUNG": [
+    "1.0.0"
+  ],
+  "DV_ALTER_ERREICHT": [
+    "1.0.0"
+  ],
+  "DV_ALTER_KLASSEN": [
+    "1.6.0",
+    "1.3.0",
+    "1.2.0",
+    "1.1.0",
+    "1.0.0"
+  ],
+  "DV_ALTER_KLASSEN_E_STATKREBS": [
+    "1.0.0"
+  ],
+  "DV_ALTER_MT_ERFUELLT": [
+    "1.0.0"
+  ],
+  "DV_ALTER_MT_ERREICHT": [
+    "1.0.0"
+  ],
+  "DV_ALTER_STD_ERFUELLT": [
+    "1.0.0"
+  ],
+  "DV_ALTER_TAG_ERFUELLT": [
+    "1.0.0"
+  ],
+  "DV_AMOUNT": [
+    "1.0.0"
+  ],
+  "DV_ANERKENNUNG_CD_N": [
+    "1.0.0"
+  ],
+  "DV_ANNOTATION_TYPE": [
+    "1.0.0"
+  ],
+  "DV_ANTEIL_BEVOELKERUNG_ERW_ALTER": [
+    "1.0.0"
+  ],
+  "DV_ANTRAGSART": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_ANKUENFTE": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_BESCH": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_BETREUUNGSFORMEN": [
+    "2018.0.0"
+  ],
+  "DV_ANZAHL_ERWERB_SEC2010": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_FTE": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_GEWAEHLTE": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_GROSSKINDER": [
+    "2018.0.0"
+  ],
+  "DV_ANZAHL_HAUSHALTE": [
+    "2018.0.0"
+  ],
+  "DV_ANZAHL_JAHRE": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_KAND": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_KINDER": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_KINDER_BORN_ALIVE": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_KINDER_LT_Y16 ": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_KINDER_PARENTAL_RESPONSIBILITY": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_MONATE": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_OEFFNUNGSTAGE": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_OFFENE_STELLEN": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_PASSANTENPLAETZE": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_PERSONEN": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_SITZE": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_STUNDEN": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_TAGE": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_VORHANDENE_BETTEN": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_VORHANDENE_ZIMMER": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_WOCHEN": [
+    "1.0.0"
+  ],
+  "DV_ANZAHL_ZIMMERNAECHTE": [
+    "1.0.0"
+  ],
+  "DV_ANZ_ANG": [
+    "1.0.0"
+  ],
+  "DV_ANZ_BEW": [
+    "1.0.0"
+  ],
+  "DV_ANZ_GESPR": [
+    "1.0.0"
+  ],
+  "DV_ANZ_KNABEN_N": [
+    "1.0.0"
+  ],
+  "DV_ANZ_MAEDCHEN_N": [
+    "1.0.0"
+  ],
+  "DV_ANZREISENXGEN": [
+    "1.0.0"
+  ],
+  "DV_ANZREISENXSELEK": [
+    "1.0.0"
+  ],
+  "DV_ANZ_SEM": [
+    "1.0.0"
+  ],
+  "DV_ANZUEBERNACHTUNGCH": [
+    "1.0.0"
+  ],
+  "DV_ANZUEBERNACHTUNGEN": [
+    "1.0.0"
+  ],
+  "DV_APPEAL": [
+    "1.0.0"
+  ],
+  "DV_APPLY_5": [
+    "1.0.0"
+  ],
+  "DV_AP_STATUS_N": [
+    "1.0.0"
+  ],
+  "DV_ARBEITSEINSATZ_PRO_EINWOHNER": [
+    "1.0.0"
+  ],
+  "DV_ARBEITSLOS_LETZTE_3J": [
+    "1.0.0"
+  ],
+  "DV_ARBEITSPRODUKTIVITAT": [
+    "1.0.0"
+  ],
+  "DV_ARBEITSSUCHE_VERFUEGBARKEIT": [
+    "1.0.0"
+  ],
+  "DV_ARBEITSTEILUNG_FAMILIE": [
+    "1.0.0"
+  ],
+  "DV_AREA": [
+    "1.1.0"
+  ],
+  "DV_AR_FERW": [
+    "1.0.0"
+  ],
+  "DV_AR_FUND": [
+    "1.0.0"
+  ],
+  "DV_AR_MASSN": [
+    "1.0.0"
+  ],
+  "DV_ARRIVALREASON": [
+    "1.0.0"
+  ],
+  "DV_AR_SCHZO": [
+    "1.0.0"
+  ],
+  "DV_ARTICLE_CD": [
+    "0.1.0"
+  ],
+  "DV_ART_KATEG_PTYPAG": [
+    "1.0.0"
+  ],
+  "DV_ATTEMPT": [
+    "1.0.0"
+  ],
+  "DV_ATTITUDE_GENDER": [
+    "1.0.0"
+  ],
+  "DV_AUFENTHALTSSTATUS_SHS": [
+    "1.0.0"
+  ],
+  "DV_AUFLOSGRND": [
+    "1.0.0"
+  ],
+  "DV_AUFTEILUNG_PAAR": [
+    "1.0.0"
+  ],
+  "DV_AUFZW": [
+    "1.0.0"
+  ],
+  "DV_AUPER_NR": [
+    "1.0.0"
+  ],
+  "DV_AUSBFIN_A": [
+    "1.0.0"
+  ],
+  "DV_AUSBFIN_ANDERE_HOHE": [
+    "1.0.0"
+  ],
+  "DV_AUSB_FINANZ": [
+    "1.0.0"
+  ],
+  "DV_AUSBFIN_B": [
+    "1.0.0"
+  ],
+  "DV_AUSBFIN_C": [
+    "1.0.0"
+  ],
+  "DV_AUSBFIN_E": [
+    "1.0.0"
+  ],
+  "DV_AUSBFIN_F": [
+    "1.0.0"
+  ],
+  "DV_AUSBFIN_G": [
+    "1.0.0"
+  ],
+  "DV_AUSBFIN_H": [
+    "1.0.0"
+  ],
+  "DV_AUSBFIN_I": [
+    "1.0.0"
+  ],
+  "DV_AUSBFIN_J": [
+    "1.0.0"
+  ],
+  "DV_AUSBFIN_K": [
+    "1.0.0"
+  ],
+  "DV_AUSBILDUNGSFORM_HOCHSCHULEN": [
+    "2022.1.0"
+  ],
+  "DV_AUSB_VOR_4_COUNT": [
+    "1.0.0"
+  ],
+  "DV_AUSFALLC": [
+    "1.0.0"
+  ],
+  "DV_AUSGWE1": [
+    "2023.1.0"
+  ],
+  "DV_AUSGWE2": [
+    "2023.1.0"
+  ],
+  "DV_AUSGWE3": [
+    "2023.1.0"
+  ],
+  "DV_AUSLCOD": [
+    "1.0.0"
+  ],
+  "DV_AUSTRITT": [
+    "1.0.0"
+  ],
+  "DV_Ausweistyp_Dauer": [
+    "1.0.0"
+  ],
+  "DV_AUSZAHLUNGSGRUND_562_ID": [
+    "1.0.0"
+  ],
+  "DV_AUSZAHLUNGSGRUND_563_DIFF": [
+    "1.0.0"
+  ],
+  "DV_AUTOPSIE_RESULTAT": [
+    "1.0.0"
+  ],
+  "DV_AXLES": [
+    "1.0.0"
+  ],
+  "DV_AZ_AG": [
+    "1.0.0"
+  ],
+  "DV_AZ_REG": [
+    "1.0.0"
+  ],
+  "DV_BACK_PAIN_WORK_RELATED": [
+    "2017.0.0"
+  ],
+  "DV_BEENDIGUNGSGRUND": [
+    "2.0.1",
+    "2.0.0",
+    "1.0.0"
+  ],
+  "DV_BEER_12M_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_BEER_12M_QUANTITY": [
+    "2017.0.0"
+  ],
+  "DV_BEER_7DAY_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_BEER_7DAY_QUANTITY": [
+    "2017.0.0"
+  ],
+  "DV_BEHANDLUNGSART": [
+    "1.0.0"
+  ],
+  "DV_BEITRAG_ARBEITSINPUT": [
+    "1.0.0"
+  ],
+  "DV_BEITRAG_KAPITALINPUT": [
+    "1.0.0"
+  ],
+  "DV_BEITRAG_KAPITALINTENSITAET": [
+    "1.0.0"
+  ],
+  "DV_BERUFSERF_HBB": [
+    "1.0.0"
+  ],
+  "DV_BERUFSERF_TOT": [
+    "1.0.0"
+  ],
+  "DV_BERUF_STELLUNG_VERGLEICH": [
+    "1.0.0"
+  ],
+  "DV_BESTAND_EMEDIA_BIBLI": [
+    "1.0.0"
+  ],
+  "DV_BETRAG_RUECKZAHLUNG_DIFF": [
+    "1.0.0"
+  ],
+  "DV_BETRAG_UEBER_DIFF": [
+    "1.0.0"
+  ],
+  "DV_BETRAG_VORBEZUG_DIFF": [
+    "1.0.0"
+  ],
+  "DV_BETRAG_ZUSATZLEISTUNGEN_DIFF": [
+    "1.0.0"
+  ],
+  "DV_BETREUUNGSFORM": [
+    "1.0.0"
+  ],
+  "DV_BETTER_OR_WORSE": [
+    "1.0.0"
+  ],
+  "DV_BEVNAT_EVENT": [
+    "1.0.0"
+  ],
+  "DV_BEVO_RISIKO": [
+    "1.0.0"
+  ],
+  "DV_BEZ_HETERO_HOMO": [
+    "2018.0.0"
+  ],
+  "DV_BEZIEHUNGSSTATUS": [
+    "2018.0.0"
+  ],
+  "DV_BEZIEHUNG_ZIELPERSON": [
+    "1.0.0"
+  ],
+  "DV_BEZIEHUNG_ZIELPERSON_KIND": [
+    "1.0.0"
+  ],
+  "DV_BEZIEHUNG_ZIELPERSON_KINDERBETREUUNG": [
+    "1.0.0"
+  ],
+  "DV_BEZ_RENT": [
+    "1.0.0"
+  ],
+  "DV_BEZUG_CD_N": [
+    "1.0.0"
+  ],
+  "DV_BEZ_WOFO": [
+    "1.0.0"
+  ],
+  "DV_BIGPHH": [
+    "1.0.0"
+  ],
+  "DV_BIP_PRO_EINWOHNER": [
+    "1.0.0"
+  ],
+  "DV_BIRTHPARENTCAT": [
+    "1.0.0"
+  ],
+  "DV_BIRTHRESIDENCE": [
+    "1.0.0"
+  ],
+  "DV_BJAHRCH": [
+    "1.0.0"
+  ],
+  "DV_BJAHRKT": [
+    "1.0.0"
+  ],
+  "DV_BLOOD_PRESSURE_CURRENT_STATE": [
+    "2017.0.0"
+  ],
+  "DV_BLOOD_PRESSURE_LAST_MEASUREMENT": [
+    "2017.0.0"
+  ],
+  "DV_BODY_TYPE": [
+    "1.0.0"
+  ],
+  "DV_BONE_DENSITY_LAST_MEASUREMENT": [
+    "2017.0.0"
+  ],
+  "DV_BP_STD_DIPLOM": [
+    "1.0.0"
+  ],
+  "DV_BP_STD_EXAM": [
+    "1.0.0"
+  ],
+  "DV_BP_STD_KURS": [
+    "1.0.0"
+  ],
+  "DV_BREAK_BP_ANZAHL": [
+    "1.0.0"
+  ],
+  "DV_BRIGANDAGE_OHS": [
+    "1.0.0"
+  ],
+  "DV_BROTGETR": [
+    "1.0.0"
+  ],
+  "DV_B_RUECKKAUFSFAEHIG": [
+    "1.0.0"
+  ],
+  "DV_BUCHUNGSARTX": [
+    "1.0.0"
+  ],
+  "DV_BUDGET_AUSGABE": [
+    "1.0.0"
+  ],
+  "DV_BUDGET_BEDARF": [
+    "1.0.0"
+  ],
+  "DV_BUR_ENT_TYPE": [
+    "1.0.0"
+  ],
+  "DV_BUR_LEG_NAME": [
+    "1.0.0"
+  ],
+  "DV_BUR_LOC_NAME": [
+    "1.0.0"
+  ],
+  "DV_BUR_LOC_TYPE": [
+    "1.0.0"
+  ],
+  "DV_BVG_AGH": [
+    "1.0.0"
+  ],
+  "DV_BVG_GUTSCH": [
+    "1.0.0"
+  ],
+  "DV_BWA": [
+    "1.0.0"
+  ],
+  "DV_CALVAR_SE": [
+    "1.0.0"
+  ],
+  "DV_CANAL": [
+    "1.0.0"
+  ],
+  "DV_CANNABIS_30DAYS_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_CAPITAL_PREVOYANCE_VIEILLESSE": [
+    "1.0.0"
+  ],
+  "DV_CASE_ID": [
+    "0.1.0"
+  ],
+  "DV_CAT_BIBLI": [
+    "1.0.0"
+  ],
+  "DV_CAWI_CATI": [
+    "2018.0.0"
+  ],
+  "DV_CENTER_REQUEST": [
+    "1.0.0"
+  ],
+  "DV_CFLAG": [
+    "1.0.0"
+  ],
+  "DV_CHANGE_FINAG": [
+    "1.0.0"
+  ],
+  "DV_CHANGE_TEZI": [
+    "1.0.0"
+  ],
+  "DV_CHANGE_TG": [
+    "1.0.0"
+  ],
+  "DV_CHILDREN_NUMBER": [
+    "1.0.0"
+  ],
+  "DV_CHILDREN_SEX_INTEGRITY_OHS": [
+    "1.0.0"
+  ],
+  "DV_CHOLESTEROL_ACTUAL_STATE": [
+    "2017.0.0"
+  ],
+  "DV_CHOLESTEROL_LAST_MEASUREMENT": [
+    "2017.0.0"
+  ],
+  "DV_CHOP_LV1": [
+    "2022.99.0"
+  ],
+  "DV_CHOP_LV2": [
+    "2022.99.0"
+  ],
+  "DV_CHOP_LV3": [
+    "2022.99.0"
+  ],
+  "DV_CHOP_LV4": [
+    "2022.99.0"
+  ],
+  "DV_CHOP_LV5": [
+    "2022.99.0"
+  ],
+  "DV_CHOP_LV6": [
+    "2022.99.0"
+  ],
+  "DV_CLARIFICATION": [
+    "1.0.0"
+  ],
+  "DV_CLASSES_OF_LANGUAGES": [
+    "1.0.0"
+  ],
+  "DV_COCAINE_30DAYS_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_CODELIST_ANNOTATION": [
+    "1.0.0"
+  ],
+  "DV_CODELIST_NAME": [
+    "1.0.0"
+  ],
+  "DV_COM_CHANNEL_EUROPASS": [
+    "2.0.0"
+  ],
+  "DV_COMM_REG_ENTRY_STATUS": [
+    "1.0.0"
+  ],
+  "DV_COMM_REG_ENT_TYPE": [
+    "1.0.0"
+  ],
+  "DV_COMMUTER_DETAIL": [
+    "1.0.0"
+  ],
+  "DV_COMPAG18OFPHHPERM": [
+    "1.0.0"
+  ],
+  "DV_COMPAG25OFPHHPERM": [
+    "1.0.0"
+  ],
+  "DV_COMPBASICOFPHH": [
+    "1.0.0"
+  ],
+  "DV_COMPENSATION": [
+    "1.0.0"
+  ],
+  "DV_COMPENSATION_AMT": [
+    "1.0.0"
+  ],
+  "DV_COMPENSATION_CD": [
+    "1.0.0"
+  ],
+  "DV_COMPENSATION_ENTRY": [
+    "1.0.0"
+  ],
+  "DV_COMPILING_ORG": [
+    "1.0.0"
+  ],
+  "DV_COMPTEUR_DOUBLONS": [
+    "1.0.0"
+  ],
+  "DV_CONCENTRATION_DIFFICULTIES": [
+    "2017.0.0"
+  ],
+  "DV_CONF_INTERVAL": [
+    "1.0.0"
+  ],
+  "DV_CONG": [
+    "2022.1.0"
+  ],
+  "DV_CONSTRUCTIONQUALITY": [
+    "1.0.0"
+  ],
+  "DV_CONSULTATION_CD": [
+    "1.0.0"
+  ],
+  "DV_CONSULTATION_STATUS": [
+    "1.0.0"
+  ],
+  "DV_CONTACT_DURATION": [
+    "1.0.0"
+  ],
+  "DV_CONTACT_QUALITY": [
+    "1.0.0"
+  ],
+  "DV_CONTACT_TYPE": [
+    "1.0.0"
+  ],
+  "DV_CONTINENT": [
+    "1.0.0"
+  ],
+  "DV_CONTINENTS": [
+    "1.0.0"
+  ],
+  "DV_CONTRACEPTIVE_METHOD": [
+    "1.0.0"
+  ],
+  "DV_CONTRACTUAL_HOURS": [
+    "1.0.0"
+  ],
+  "DV_CONTRIBUTION": [
+    "1.0.0"
+  ],
+  "DV_COUNSELLING_RELIABLE": [
+    "1.0.0"
+  ],
+  "DV_COUNSELLING_SPECIALIST": [
+    "1.0.0"
+  ],
+  "DV_COUNSELLING_VICTIM": [
+    "1.0.0"
+  ],
+  "DV_COUNT_GSS": [
+    "1.0.0"
+  ],
+  "DV_COUNTOFHOURS": [
+    "2018.1.0"
+  ],
+  "DV_COVERAGE_GEO": [
+    "1.0.0"
+  ],
+  "DV_COVERAGE_POP": [
+    "1.0.0"
+  ],
+  "DV_CPI_ITEM_LIST": [
+    "2020.0.0",
+    "2015.0.0",
+    "2010.0.0",
+    "2005.0.0",
+    "2000.0.0",
+    "1993.0.0",
+    "1982.0.0",
+    "1977.0.0",
+    "1966.0.0",
+    "1939.0.0",
+    "1914.0.0",
+    "1.0.0"
+  ],
+  "DV_CRANE": [
+    "1.0.0"
+  ],
+  "DV_CRIME_ID": [
+    "1.0.0"
+  ],
+  "DV_CRIME_PERSON_NR": [
+    "1.0.0"
+  ],
+  "DV_CURRENCY": [
+    "1.6.0"
+  ],
+  "DV_DATADOMAIN": [
+    "1.0.0"
+  ],
+  "DV_DATAFLOW": [
+    "1.0.0"
+  ],
+  "DV_DATA_SOURCE": [
+    "1.0.0"
+  ],
+  "DV_DAUER_ERREICHTEN_JAHREN": [
+    "1.0.0"
+  ],
+  "DV_DAUER_ERREICHTEN_MONATEN": [
+    "1.0.0"
+  ],
+  "DV_DAUER_ERRFULLTEN_JAHREN": [
+    "1.0.0"
+  ],
+  "DV_DAUER_ERRFULLTEN_MONATEN": [
+    "1.0.0"
+  ],
+  "DV_DAUER_JAHREN_KLASSEN": [
+    "1.0.0"
+  ],
+  "DV_DAUER_KLASSEN_STUNDEN": [
+    "1.0.0"
+  ],
+  "DV_DAUER_MINUTEN_KLASSEN": [
+    "1.0.0"
+  ],
+  "DV_DAUER_TAGEN": [
+    "1.0.0"
+  ],
+  "DV_DAYOFMONTH": [
+    "1.0.0"
+  ],
+  "DV_DCAT_DISTRIBUTION_FORMAT": [
+    "1.1.0"
+  ],
+  "DV_DECKUNGSQUOTE": [
+    "1.0.0"
+  ],
+  "DV_DECKUNGSQUOTE_KLASSEN": [
+    "1.0.0"
+  ],
+  "DV_DECLARATION_NUMBER": [
+    "1.0.0"
+  ],
+  "DV_DECL_ROW_NUMBER": [
+    "1.0.0"
+  ],
+  "DV_DEGREE_LEVEL": [
+    "1.0.0"
+  ],
+  "DV_DELICT_INSTRUMENT_CD": [
+    "0.1.0"
+  ],
+  "DV_DELICT_SUM_NR": [
+    "0.1.0"
+  ],
+  "DV_DELICT_SUM_TOT_NR": [
+    "0.1.0"
+  ],
+  "DV_DEMOIND_F": [
+    "0.1.0"
+  ],
+  "DV_DEPARTURE": [
+    "1.0.0"
+  ],
+  "DV_DEPARTX": [
+    "1.0.0"
+  ],
+  "DV_DEPENDENT_SEX_INTEGRITY_OHS": [
+    "1.0.0"
+  ],
+  "DV_DEPENSES_BIBLI": [
+    "1.0.0"
+  ],
+  "DV_DEPENSESMEDIA_BIBLI": [
+    "1.0.0"
+  ],
+  "DV_DEP_PERS_X": [
+    "1.0.0"
+  ],
+  "DV_DEPSP_DET": [
+    "1.0.0"
+  ],
+  "DV_DESCRIPTION_OF_GOOD": [
+    "1.0.0"
+  ],
+  "DV_DESIRE_WEIGHT_CHANGE": [
+    "2017.0.0"
+  ],
+  "DV_DESTINATIONCODE": [
+    "1.0.0"
+  ],
+  "DV_DESTINATIONSTYPX": [
+    "1.0.0"
+  ],
+  "DV_DESTROY_SUM_NR": [
+    "0.1.0"
+  ],
+  "DV_DG": [
+    "1.0.0"
+  ],
+  "DV_DIABETES_TYPE": [
+    "2017.0.0"
+  ],
+  "DV_DIAG_TYPE": [
+    "1.0.0"
+  ],
+  "DV_DIET_REASON": [
+    "2017.0.0"
+  ],
+  "DV_DIFF_ABSTIMMUNGSERGEBNIS": [
+    "1.0.0"
+  ],
+  "DV_DIFF_CITIZENSHIP": [
+    "1.0.0"
+  ],
+  "DV_DIFF_COMMENT": [
+    "1.0.0"
+  ],
+  "DV_DIFF_COMMENT_ARMUT": [
+    "1.0.1",
+    "1.0.0"
+  ],
+  "DV_DIFF_COMMENT_BESTA": [
+    "0.1.0"
+  ],
+  "DV_DIFF_COMMENT_BEVNAT": [
+    "1.0.0"
+  ],
+  "DV_DIFF_COMMENT_EWMFA_1": [
+    "1.0.0"
+  ],
+  "DV_DIFF_COMMENT_GGS": [
+    "1.0.0"
+  ],
+  "DV_DIFF_COMMENT_LWZ": [
+    "1.0.0"
+  ],
+  "DV_DIFF_COMMENT_MODUA": [
+    "1.0.0"
+  ],
+  "DV_DIFF_COMMENT_NRS": [
+    "1.0.0"
+  ],
+  "DV_DIFF_FIKTIVE_GDE": [
+    "1.0.0"
+  ],
+  "DV_DIFFICULTIES_REMEMBERING": [
+    "2017.0.0"
+  ],
+  "DV_DIFF_QUALITE_GEO": [
+    "1.0.0"
+  ],
+  "DV_DIFF_REFPOP_SAKE": [
+    "1.0.0"
+  ],
+  "DV_DIFF_REGCH_CH": [
+    "1.0.0"
+  ],
+  "DV_DIFF_VORLAGE": [
+    "1.0.0"
+  ],
+  "DV_DISS_ORG": [
+    "1.12.0"
+  ],
+  "DV_DISTANCE_CAT": [
+    "1.0.0"
+  ],
+  "DV_DISTANCETOGEOFEATURE": [
+    "1.0.0"
+  ],
+  "DV_DISTRICT_INTL": [
+    "1.0.0"
+  ],
+  "DV_DISTURBING_SCALE4": [
+    "1.0.0"
+  ],
+  "DV_DK_EZOB_GS": [
+    "1.0.0"
+  ],
+  "DV_DK_SAKRAL": [
+    "1.0.0"
+  ],
+  "DV_DOCUMENT_STATUS": [
+    "1.0.0"
+  ],
+  "DV_DOSSIERTYP_SOZIALHILFE": [
+    "1.0.0"
+  ],
+  "DV_DS_MNAFS": [
+    "1.0.0"
+  ],
+  "DV_DUBLETTEN_ID": [
+    "1.0.0"
+  ],
+  "DV_DURATION_OF_RESIDENCE_YEARS": [
+    "1.0.0"
+  ],
+  "DV_DURATIONUNTIL_FCERT": [
+    "1.0.0"
+  ],
+  "DV_DURCHFUEHRUNG_INTERVENTION": [
+    "1.0.0"
+  ],
+  "DV_DURTENTRYINEMP_30M1": [
+    "1.0.0"
+  ],
+  "DV_EASE_6": [
+    "1.0.0"
+  ],
+  "DV_ECIGARETTES_WITH_NICOTINE_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_ECIGARETTES_WITHOUT_NICOTINE_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_E_CLASSID": [
+    "1.0.0"
+  ],
+  "DV_E_COORD_EPSG2056": [
+    "1.0.0"
+  ],
+  "DV_EDUC_ASSMNT_BY_EMPLOYER": [
+    "2021.0.0"
+  ],
+  "DV_EDUC_BENEFITS": [
+    "2021.0.0"
+  ],
+  "DV_EDUC_CE_THEME": [
+    "2021.0.0"
+  ],
+  "DV_EDUC_EMPLOYER_FIN_SUPPORT": [
+    "2021.0.0"
+  ],
+  "DV_EDU_CLASSID": [
+    "1.0.0"
+  ],
+  "DV_EDUC_MODUS": [
+    "2021.0.0"
+  ],
+  "DV_EDUC_NO_PARTICIPATION": [
+    "2021.0.0"
+  ],
+  "DV_EDUC_NORECOG_CH": [
+    "1.0.0"
+  ],
+  "DV_EDUC_PARTICIPATION": [
+    "2016.0.0"
+  ],
+  "DV_EDUC_PROVIDER": [
+    "2021.0.0"
+  ],
+  "DV_EDUC_PRSNL_FAM_EXPS_12M": [
+    "2021.0.0"
+  ],
+  "DV_EDUC_PURPOSE": [
+    "2021.0.0"
+  ],
+  "DV_EDUC_REASON_NOT_TO_PARTICIPATE": [
+    "2021.0.0"
+  ],
+  "DV_EDUC_REASON_TO_PARTICIPATE": [
+    "2021.0.0"
+  ],
+  "DV_EDUC_RECOG_CH_DUM": [
+    "1.0.0"
+  ],
+  "DV_EDU_CRITICALEVENT": [
+    "1.0.0"
+  ],
+  "DV_EDUC_RQMT_PRPSL_WHOM": [
+    "2021.0.0"
+  ],
+  "DV_EDUC_STATE_OF_PROGRESS": [
+    "2011.0.0"
+  ],
+  "DV_EDUC_TIME_PLANNING": [
+    "2011.0.0"
+  ],
+  "DV_EDUCTYPE1": [
+    "1.0.0"
+  ],
+  "DV_EDUCTYPE2": [
+    "1.0.0"
+  ],
+  "DV_EDUCTYPE3": [
+    "1.0.0"
+  ],
+  "DV_EDU_DELAY": [
+    "1.0.0"
+  ],
+  "DV_EDU_DUR2S2": [
+    "1.0.0"
+  ],
+  "DV_EDU_EVENTTYPE": [
+    "1.0.0"
+  ],
+  "DV_EDU_INSTTYPETER": [
+    "1.0.0"
+  ],
+  "DV_EDU_INTOS2": [
+    "1.0.0"
+  ],
+  "DV_EDU_LEVELOFSTUDYTER": [
+    "1.0.0"
+  ],
+  "DV_EDU_SUCCESSS2": [
+    "1.0.0"
+  ],
+  "DV_EFFEKT_ERWERBSLOSIGKEIT": [
+    "1.0.0"
+  ],
+  "DV_EHEGCHSYL": [
+    "1.1.0"
+  ],
+  "DV_EINBGART": [
+    "1.0.0"
+  ],
+  "DV_EINBGTYP": [
+    "1.0.0"
+  ],
+  "DV_EINKOMMEN_SOZIALHILFE": [
+    "1.0.0"
+  ],
+  "DV_EINKOMMEN_VERWALTUNG_PAAR": [
+    "1.0.0"
+  ],
+  "DV_EINNAHMEN_PRO_LOGIERNACHT": [
+    "1.0.0"
+  ],
+  "DV_E_INSTITUTIONMEB": [
+    "1.0.0"
+  ],
+  "DV_EMAILADDRESS": [
+    "1.0.0"
+  ],
+  "DV_ENTREES_BIBLI": [
+    "1.0.0"
+  ],
+  "DV_ENTREES_MUSEUM": [
+    "1.0.0"
+  ],
+  "DV_ERHEBUNGSZEITPUNKT": [
+    "1.0.0"
+  ],
+  "DV_ERWERBSITUATION": [
+    "2.0.1",
+    "2.0.0",
+    "1.0.0"
+  ],
+  "DV_ERWERBSQUOTE_BEVOELKERUNG_ERW_ALTER": [
+    "1.0.0"
+  ],
+  "DV_ERWERBSSTATUS_PENSUM": [
+    "2018.0.0"
+  ],
+  "DV_ERWERBSTAETIGKEIT_ZEITVERLAUF": [
+    "2018.0.0"
+  ],
+  "DV_ERW_OBL_DAU": [
+    "1.0.0"
+  ],
+  "DV_ETAT_DE_SANTE_LIMITATIONS": [
+    "1.0.0"
+  ],
+  "DV_EU_EFTA": [
+    "1.0.0"
+  ],
+  "DV_EURO_EMISSIONS_STANDARD": [
+    "1.0.0"
+  ],
+  "DV_EVENEMENTS_MUSEUM": [
+    "1.0.0"
+  ],
+  "DV_EVOLONLINE_MUSEUM": [
+    "1.0.0"
+  ],
+  "DV_EVOLTRAVAIL_MUSEUM": [
+    "1.0.0"
+  ],
+  "DV_EXPL_ID": [
+    "1.0.0"
+  ],
+  "DV_EXPORT_ANTEIL": [
+    "1.0.0"
+  ],
+  "DV_EXPOSURE": [
+    "1.0.0"
+  ],
+  "DV_EXPOTEMP_MUSEE": [
+    "1.0.0"
+  ],
+  "DV_EX-SMOKER_NUMBER_OF_YEARS_SINCE_QUITTING": [
+    "2017.0.0"
+  ],
+  "DV_EXTRAMUROS_EXP": [
+    "1.0.0"
+  ],
+  "DV_F60X00": [
+    "1.0.0"
+  ],
+  "DV_F6120X": [
+    "1.0.0"
+  ],
+  "DV_F61X50": [
+    "1.0.0"
+  ],
+  "DV_FACHL1": [
+    "2022.1.0"
+  ],
+  "DV_FACHL2": [
+    "2022.1.0"
+  ],
+  "DV_FACHL3": [
+    "2022.1.0"
+  ],
+  "DV_FACTOR_HG": [
+    "0.1.0"
+  ],
+  "DV_FACTOR_NR": [
+    "0.1.0"
+  ],
+  "DV_FAITH_SCALE4": [
+    "2.0.0"
+  ],
+  "DV_fall_id_ch": [
+    "1.0.0"
+  ],
+  "DV_FALLPAUSCHALE": [
+    "1.0.0"
+  ],
+  "DV_FALLSTRUKTUR ": [
+    "2.0.1",
+    "2.0.0",
+    "1.0.0"
+  ],
+  "DV_FAM": [
+    "1.0.0"
+  ],
+  "DV_FATTYPS4": [
+    "1.0.0"
+  ],
+  "DV_FATTYTS3": [
+    "1.0.0"
+  ],
+  "DV_FAXNUMBER": [
+    "1.0.0"
+  ],
+  "DV_FEAR_SCALE4": [
+    "1.0.0"
+  ],
+  "DV_FEDERAL_COURT_MEMBERSHIP": [
+    "1.0.0"
+  ],
+  "DV_FEDERAL_LAW_ARTICLE": [
+    "1.0.0"
+  ],
+  "DV_FHS": [
+    "2022.1.0"
+  ],
+  "DV_FIKTIVE_WAEHLENDE": [
+    "1.0.0"
+  ],
+  "DV_FIN1": [
+    "2023.1.0"
+  ],
+  "DV_FIN2": [
+    "2023.1.0"
+  ],
+  "DV_FIN3": [
+    "2023.1.0"
+  ],
+  "DV_FINAL_DATE_DT": [
+    "0.1.0"
+  ],
+  "DV_FINANCEMENT_MUSEUM": [
+    "1.0.0"
+  ],
+  "DV_FINANCIAL_SITUATION_FUTURE": [
+    "1.0.0"
+  ],
+  "DV_FINANCIAL_SITUATION_PAST": [
+    "1.0.0"
+  ],
+  "DV_FINANZIELLE_SITUATION_2": [
+    "1.0.0"
+  ],
+  "DV_FINANZIERUNGSART_ID": [
+    "1.0.0"
+  ],
+  "DV_FINANZ_UNT_ART": [
+    "1.0.0"
+  ],
+  "DV_FINANZ_UNT_BETRAG": [
+    "1.0.0"
+  ],
+  "DV_FINF5": [
+    "2023.1.0"
+  ],
+  "DV_FIN_Q": [
+    "2018.1.0"
+  ],
+  "DV_FINQUH": [
+    "2023.1.0"
+  ],
+  "DV_FIRST_CONTACT": [
+    "1.0.0"
+  ],
+  "DV_FIRST_DATE_DT": [
+    "0.1.0"
+  ],
+  "DV_FIRSTNAME": [
+    "1.0.0"
+  ],
+  "DV_FISH_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_FIXAUSGABEN_SOZIALHILFE": [
+    "1.0.0"
+  ],
+  "DV_FLAG_FREMDPLATZIERT": [
+    "1.0.0"
+  ],
+  "DV_FLAGHH6": [
+    "1.0.0"
+  ],
+  "DV_FLAGHH7": [
+    "1.0.0"
+  ],
+  "DV_FLATRENTALL": [
+    "1.0.0"
+  ],
+  "DV_FLUGHAFENCODE": [
+    "1.0.0"
+  ],
+  "DV_FOREIGNHOUSEHOLD": [
+    "1.0.0"
+  ],
+  "DV_FOREIGN_TRADE_PARTNER ": [
+    "1.0.0"
+  ],
+  "DV_FOREIGNZIPCODE": [
+    "1.0.0"
+  ],
+  "DV_FORMALSTUDY_DURATION": [
+    "1.0.0"
+  ],
+  "DV_FORM_DES_AUSBILDUNGSBEITRAGS": [
+    "1.0.0"
+  ],
+  "DV_FORMID": [
+    "1.0.0"
+  ],
+  "DV_FORST_ZONE": [
+    "1.0.0"
+  ],
+  "DV_FPI_EVENT": [
+    "1.0.0"
+  ],
+  "DV_FPI_FIRSTREENTRY_CONNECT": [
+    "1.0.0"
+  ],
+  "DV_FPI_NRCA": [
+    "1.0.0"
+  ],
+  "DV_FPI_NREENTRY": [
+    "1.0.0"
+  ],
+  "DV_FPI_STATEATGIVENTIME": [
+    "1.0.0"
+  ],
+  "DV_F_RECORD": [
+    "1.0.0"
+  ],
+  "DV_FREEDOM_DELICT_OHS": [
+    "1.0.0"
+  ],
+  "DV_F_REMOVE_DVS": [
+    "1.0.0"
+  ],
+  "DV_FREQ_EVENT": [
+    "1.0.0"
+  ],
+  "DV_FREQ_EVENT_NO_TIME": [
+    "1.0.0"
+  ],
+  "DV_FREQ_LESS_THAN_WEEKLY_TO_DAILY_4": [
+    "1.0.0"
+  ],
+  "DV_FREQ_MORETHANWEEKLY_LESSTHANMONTLY_SCALE5": [
+    "2018.1.0"
+  ],
+  "DV_FREQ_NEVER_ALWAYS_SCALE6": [
+    "1.3.0"
+  ],
+  "DV_FREQ_NEVER_TO_DAILY": [
+    "1.0.0"
+  ],
+  "DV_FREQ_NEVER_TO_VERY_OFTEN_4": [
+    "1.0.0"
+  ],
+  "DV_FREQ_NEVER_TO_WEEKLY": [
+    "1.0.0"
+  ],
+  "DV_FREQ_NEVER_VERYOFTEN_SCALE6": [
+    "1.0.0"
+  ],
+  "DV_FREQ_NOTATALL_DAILY_SCALE4": [
+    "1.2.0"
+  ],
+  "DV_FREQPERWEEK": [
+    "1.0.0"
+  ],
+  "DV_FREQTOXCAT": [
+    "1.0.0"
+  ],
+  "DV_FRUITS_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_FRUITS_QUANTITY": [
+    "2017.0.0"
+  ],
+  "DV_FSA_TEST_20231130": [
+    "1.0.0"
+  ],
+  "DV_FUTTERGETR": [
+    "1.0.0"
+  ],
+  "DV_GAGE": [
+    "1.0.0"
+  ],
+  "DV_GAN1": [
+    "2022.1.0"
+  ],
+  "DV_GAN3": [
+    "2022.1.0"
+  ],
+  "DV_GEB_ORT_N": [
+    "1.0.0"
+  ],
+  "DV_GEB_SEM_TOT": [
+    "1.0.0"
+  ],
+  "DV_GELDG": [
+    "2018.1.0"
+  ],
+  "DV_GENERIC_CODES": [
+    "0.1.0"
+  ],
+  "DV_GENRE_FILM": [
+    "1.0.0"
+  ],
+  "DV_GEOGRAPHY": [
+    "1.0.0"
+  ],
+  "DV_GESAMTER_AUSZAHLUNGSBETRAG": [
+    "1.0.0"
+  ],
+  "DV_GESTION_MUSEUM": [
+    "1.0.0"
+  ],
+  "DV_GETYP_GEMTYP": [
+    "1.0.0"
+  ],
+  "DV_GEWAEHLT": [
+    "1.0.0"
+  ],
+  "DV_GEW_BESTA": [
+    "1.0.0"
+  ],
+  "DV_GEWICHT_PASTA": [
+    "1.0.0"
+  ],
+  "DV_GLEICHWERTIG": [
+    "2022.1.0"
+  ],
+  "DV_GLN_RFR": [
+    "1.0.0"
+  ],
+  "DV_GLOBAL_ACTIVITY_LIMITATION_INDICATOR": [
+    "2017.0.0"
+  ],
+  "DV_GLUCOSE_ACTUAL_STATE": [
+    "2017.0.0"
+  ],
+  "DV_GLUCOSE_LAST_MEASUREMENT": [
+    "2017.0.0"
+  ],
+  "DV_GMDEGK": [
+    "1.0.0"
+  ],
+  "DV_GOOD_BAD": [
+    "1.0.0"
+  ],
+  "DV_GRADHILFSLOSIGKEIT": [
+    "1.0.0"
+  ],
+  "DV_GROUPS_OF_LANGUAGES": [
+    "1.0.0"
+  ],
+  "DV_GRUENDE_INTEGRATIONSZULAGE": [
+    "1.0.0"
+  ],
+  "DV_GRUND_AUSZUG_KIND": [
+    "1.0.0"
+  ],
+  "DV_GRUND_BETREUUNGSFORM": [
+    "1.0.0"
+  ],
+  "DV_GRUND_KONTAKT_EXPARTNER": [
+    "1.0.0"
+  ],
+  "DV_GRUND_NICHTERHOEHUNG_STELLENPROZENT": [
+    "1.0.0"
+  ],
+  "DV_GRUND_NICHTERWERBSTAETIG": [
+    "1.0.0"
+  ],
+  "DV_GRUND_REDUKTION_STELLENPROZENT": [
+    "2.0.0"
+  ],
+  "DV_GRUND_SCHEIDUNG": [
+    "1.0.0"
+  ],
+  "DV_GSCHUTZR": [
+    "1.0.0"
+  ],
+  "DV_GSEX": [
+    "1.0.0"
+  ],
+  "DV_GST": [
+    "1.0.0"
+  ],
+  "DV_GUELTIGKEIT_SVNR_SHS": [
+    "1.0.0"
+  ],
+  "DV_GVE_TOT_09": [
+    "1.0.0"
+  ],
+  "DV_HABE_ANZAHL_KONSUMGUETER": [
+    "11.0.0"
+  ],
+  "DV_HABE_AUSGABEN": [
+    "8.0.0"
+  ],
+  "DV_HABE_AUSGABEN_NEGATIV": [
+    "8.0.0"
+  ],
+  "DV_HABE_BRUTTOEINKOMMENSKLASSE": [
+    "8.0.0"
+  ],
+  "DV_HABE_BUDGET_ZWISCHENTOTAL": [
+    "8.0.0"
+  ],
+  "DV_HABE_EINKOMMEN": [
+    "8.0.0"
+  ],
+  "DV_HABE_GEWICHT": [
+    "3.0.0"
+  ],
+  "DV_HABE_HAUSHALT_ID": [
+    "1.0.0"
+  ],
+  "DV_HABE_HAUSHALTSBOOLEAN": [
+    "8.0.0"
+  ],
+  "DV_HABE_MENGEN_KG": [
+    "8.0.0"
+  ],
+  "DV_HABE_MENGEN_LT": [
+    "8.0.0"
+  ],
+  "DV_HABE_PERSON_ID": [
+    "1.0.0"
+  ],
+  "DV_HABE_STELLUNG_IM_HAUSHALT": [
+    "11.0.0"
+  ],
+  "DV_HABE_STRATUM": [
+    "3.0.0"
+  ],
+  "DV_HABE_STRATUMGROESSE": [
+    "3.0.0"
+  ],
+  "DV_HABE_ZIELPERSON_NR": [
+    "1.0.0"
+  ],
+  "DV_HABITANT_SEC": [
+    "0.1.0"
+  ],
+  "DV_HAUSARBEIT_AUFTEILUNG": [
+    "2018.0.0"
+  ],
+  "DV_HAUSHALTSKATEGORIE": [
+    "1.0.0"
+  ],
+  "DV_HAUSHALTSTYP": [
+    "1.0.0"
+  ],
+  "DV_HBB_NACHDIPL": [
+    "1.0.0"
+  ],
+  "DV_HEALTH_FINANCING": [
+    "1.0.0"
+  ],
+  "DV_HEALTH_FINANCING_SOURCE": [
+    "1.0.0"
+  ],
+  "DV_HEALTH_MODE": [
+    "1.0.0"
+  ],
+  "DV_HEALTH_PROBLEM_PSYCHOLOGICAL_PHYSICAL": [
+    "2017.0.0"
+  ],
+  "DV_HEALTH_PROVIDER": [
+    "1.0.0"
+  ],
+  "DV_HEALTH_SERVICE": [
+    "1.0.0"
+  ],
+  "DV_HEARING_SUFFICIENTLY_TO_FOLLOW_CONVERSATION": [
+    "2017.0.0"
+  ],
+  "DV_HECTARE_EPSG2056": [
+    "1.0.0"
+  ],
+  "DV_HEIGHT_ABOVE_SEA": [
+    "1.1.0"
+  ],
+  "DV_HEIMATORT": [
+    "1.0.0"
+  ],
+  "DV_HELP_FREQ_SCALE5": [
+    "2018.0.0"
+  ],
+  "DV_HETYPE": [
+    "2022.1.0"
+  ],
+  "DV_HEURES_BIBLI": [
+    "1.0.0"
+  ],
+  "DV_HH_5TYPES_CPL": [
+    "1.0.0"
+  ],
+  "DV_HHBYNATIOPLACEBIRTH": [
+    "1.0.0"
+  ],
+  "DV_HH_CURRACTSTI_GROUPS": [
+    "1.0.0"
+  ],
+  "DV_HH_FAMU18": [
+    "1.0.0"
+  ],
+  "DV_HH_FAMU18_CHILDREN": [
+    "1.0.0"
+  ],
+  "DV_HH_FAMU18_PARENTS": [
+    "1.0.0"
+  ],
+  "DV_HH_FAMU25_PARENTS": [
+    "1.0.0"
+  ],
+  "DV_HH_HEDUAGGI": [
+    "1.0.0"
+  ],
+  "DV_HH_HEDUAGGI_COUPLES": [
+    "1.0.0"
+  ],
+  "DV_HHMITGLIEDERX": [
+    "1.0.0"
+  ],
+  "DV_HH_OCC_MODEL": [
+    "1.0.0"
+  ],
+  "DV_HH_PERSONNUMBER": [
+    "1.0.0"
+  ],
+  "DV_HIGHER_INTER_LOWER": [
+    "2.0.0"
+  ],
+  "DV_HILFE_FREQ": [
+    "2018.0.0"
+  ],
+  "DV_HINWEIS_AUS": [
+    "1.1.0"
+  ],
+  "DV_HOLZ_M3": [
+    "1.0.0"
+  ],
+  "DV_HOMECARE_SERVICES_12M_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_HOMECARE_SERVICES_12M_REGULARITY": [
+    "2017.0.0"
+  ],
+  "DV_HOMEOFFICE": [
+    "2018.0.0"
+  ],
+  "DV_HOMICIDE_ATTEMPT_OHS": [
+    "1.0.0"
+  ],
+  "DV_HOMICIDE_WITHOUT_SVG_OHS": [
+    "1.0.0"
+  ],
+  "DV_HOMICIDE_WITH_SVG_OHS": [
+    "1.0.0"
+  ],
+  "DV_HONOS": [
+    "1.0.0"
+  ],
+  "DV_HOTELKLASSE": [
+    "1.0.0"
+  ],
+  "DV_HOURS_OF_ABSENCES": [
+    "1.0.0"
+  ],
+  "DV_HOUSEHOLDBYAGE18": [
+    "1.0.0"
+  ],
+  "DV_HOUSEHOLDBYAGE25": [
+    "1.0.0"
+  ],
+  "DV_HOUSEHOLDBYNATIO": [
+    "1.0.0"
+  ],
+  "DV_HOUSEHOLDBYPLACEBIRTH": [
+    "1.0.0"
+  ],
+  "DV_HOUSEHOLDID": [
+    "1.0.0"
+  ],
+  "DV_HOUSEHOLDRESIDENCE1": [
+    "1.0.0"
+  ],
+  "DV_HOUSEHOLDRESIDENCE2": [
+    "1.0.0"
+  ],
+  "DV_HOUSEHOLDYEARLYID": [
+    "1.0.0"
+  ],
+  "DV_HOUSING_DELAYED_FUNDING": [
+    "1.0.0"
+  ],
+  "DV_HOUSING_PROMPT_FUNDING": [
+    "1.0.0"
+  ],
+  "DV_IADL_DOING_LAUNDRY": [
+    "2017.0.0"
+  ],
+  "DV_IADL_HEAVY_HOUSEWORK": [
+    "2017.0.0"
+  ],
+  "DV_IADL_LIGHT_HOUSEWORK": [
+    "2017.0.0"
+  ],
+  "DV_IADL_MANAGING_FINANCES": [
+    "2017.0.0"
+  ],
+  "DV_IADL_PREPARING_MEAL": [
+    "2017.0.0"
+  ],
+  "DV_IADL_PUBLIC_TRANSPORT": [
+    "2017.0.0"
+  ],
+  "DV_IADL_PUBLIC_TRANSPORT_UNDER_65": [
+    "2017.0.0"
+  ],
+  "DV_IADL_SHOPPING": [
+    "2017.0.0"
+  ],
+  "DV_IADL_USING_TELEPHONE": [
+    "2017.0.0"
+  ],
+  "DV_ICD10_GRUPPE": [
+    "2022.45.0"
+  ],
+  "DV_ICD_10_KAPITEL": [
+    "2022.45.0"
+  ],
+  "DV_ICD10_KODE": [
+    "2022.45.0"
+  ],
+  "DV_ICD8_KODE": [
+    "1.0.0"
+  ],
+  "DV_ID_BIBLI": [
+    "1.0.0"
+  ],
+  "DV_ID_EFG": [
+    "2018.0.0"
+  ],
+  "DV_ID_EXPARTNER_EFG": [
+    "1.0.0"
+  ],
+  "DV_ID_KIND_EFG": [
+    "1.0.0"
+  ],
+  "DV_ID_MUSEUM": [
+    "1.0.0"
+  ],
+  "DV_ID_OMNI": [
+    "1.0.0"
+  ],
+  "DV_ID_OTHER_EFG": [
+    "2018.0.0"
+  ],
+  "DV_IDP2_DATE": [
+    "1.0.0"
+  ],
+  "DV_IDP2_NUMERIC": [
+    "1.0.0"
+  ],
+  "DV_IDP2_VARCHAR": [
+    "1.0.0"
+  ],
+  "DV_ID_SHS ": [
+    "1.0.0"
+  ],
+  "DV_ID_TOUR": [
+    "1.0.0"
+  ],
+  "DV_IDX_TYPE": [
+    "1.0.0"
+  ],
+  "DV_ILLNESS_SPREADING_OHS": [
+    "1.0.0"
+  ],
+  "DV_IMPI_PRICE": [
+    "1.0.0"
+  ],
+  "DV_IMPORTANCE_5": [
+    "1.0.0"
+  ],
+  "DV_IMPUTATION_GWS": [
+    "1.0.0"
+  ],
+  "DV_INAUSLAND60X40": [
+    "1.0.0"
+  ],
+  "DV_INCOME_AHV": [
+    "1.0.0"
+  ],
+  "DV_INDEM_VAC": [
+    "1.0.0"
+  ],
+  "DV_INDEM_VACJF": [
+    "1.0.0"
+  ],
+  "DV_INDICATOR": [
+    "1.0.0"
+  ],
+  "DV_INDICE": [
+    "1.1.0"
+  ],
+  "DV_INDIC_EGID": [
+    "1.0.0"
+  ],
+  "DV_INDIKATOR_NETTOBEDARF": [
+    "1.0.0"
+  ],
+  "DV_IND_TYPE": [
+    "1.1.0"
+  ],
+  "DV_INFANTILE_HELP_IN": [
+    "1.0.0"
+  ],
+  "DV_INFANTILE_HELP_OUT": [
+    "1.0.0"
+  ],
+  "DV_INFORMAL_CARE_GIVEN_12M_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_INFORMAL_CARE_GIVEN_12M_REGULARITY": [
+    "2017.0.0"
+  ],
+  "DV_INFORMAL_CARE_RECEIVED_12M_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_INFORMAL_CARE_RECEIVED_12M_REGULARITY": [
+    "2017.0.0"
+  ],
+  "DV_INJURY_WITHOUT_SVG_OHS": [
+    "1.0.0"
+  ],
+  "DV_INJURY_WITH_SVG_OHS": [
+    "1.0.0"
+  ],
+  "DV_INST_GARANT_TYP": [
+    "1.0.0"
+  ],
+  "DV_INSTID_KATEGORIE": [
+    "1.0.0"
+  ],
+  "DV_INSTITUTION_TYPE": [
+    "1.0.0"
+  ],
+  "DV_INSTNAME": [
+    "1.0.0"
+  ],
+  "DV_INTEREST_SCALE11": [
+    "1.0.0"
+  ],
+  "DV_INTERNETADDRESS": [
+    "1.0.0"
+  ],
+  "DV_INTERQUANTILE_INTERVAL": [
+    "1.0.0"
+  ],
+  "DV_INTRAMUROS_EXP": [
+    "1.0.0"
+  ],
+  "DV_INVALIDITATSGRAD": [
+    "1.0.0"
+  ],
+  "DV_itark_spalte": [
+    "1.0.0"
+  ],
+  "DV_JAHR": [
+    "1.0.0"
+  ],
+  "DV_JA_NEIN_3C": [
+    "1.0.0"
+  ],
+  "DV_JA_NEIN_4C": [
+    "2018.0.0"
+  ],
+  "DV_JOURS_BIBLI": [
+    "1.0.0"
+  ],
+  "DV_JOURS_FER": [
+    "1.0.0"
+  ],
+  "DV_JOURS_MUSEUM": [
+    "1.0.0"
+  ],
+  "DV_KANDIDAT_NUMMER": [
+    "1.0.0"
+  ],
+  "DV_KANDIDAT_STATUS": [
+    "1.0.0"
+  ],
+  "DV_KAP_BEZ": [
+    "1.0.0"
+  ],
+  "DV_KAPITALINPUT": [
+    "1.0.0"
+  ],
+  "DV_KAPITALINTENSIVIERUNG": [
+    "1.0.0"
+  ],
+  "DV_KAPITALPRODUKTIVITAT": [
+    "1.0.0"
+  ],
+  "DV_KART1": [
+    "2018.1.0"
+  ],
+  "DV_KART1UH": [
+    "2023.1.0"
+  ],
+  "DV_KATEG_PTYPBW": [
+    "1.0.0"
+  ],
+  "DV_KENNENLERNEN_PARTNER": [
+    "1.0.0"
+  ],
+  "DV_KFV_KOSTENKATEGORIEN": [
+    "1.0.0"
+  ],
+  "DV_KINDERBETREUUNG_AUFTEILUNG": [
+    "2018.0.0"
+  ],
+  "DV_KINDERBETREUUNG_ELTERN_BEIDE_O_GETRENNT": [
+    "1.0.0"
+  ],
+  "DV_KINDERBETREUUNG_ELTERN_VS_ELTERNTEIL": [
+    "2.0.0"
+  ],
+  "DV_KIND_WOHNORT": [
+    "1.0.0"
+  ],
+  "DV_KLAGE_ART_CD_N": [
+    "1.0.0"
+  ],
+  "DV_KLAGE_PARTEI_CD_N": [
+    "1.0.0"
+  ],
+  "DV_KONTOART_ID": [
+    "1.0.0"
+  ],
+  "DV_KOSTENANTEIL_ARBEIT": [
+    "1.0.0"
+  ],
+  "DV_KOSTENANTEIL_KAPITAL": [
+    "1.0.0"
+  ],
+  "DV_KOSTENSTRUKTUR": [
+    "1.0.0"
+  ],
+  "DV_KTIDB": [
+    "1.0.0"
+  ],
+  "DV_ktr_44_rekole": [
+    "1.0.0"
+  ],
+  "DV_KT_SHS_PILOT_MOD": [
+    "1.0.0"
+  ],
+  "DV_KT_SHS_PILOT_MOD_13084": [
+    "1.0.0"
+  ],
+  "DV_KURS_OBLIGATORISCH": [
+    "1.1.0"
+  ],
+  "DV_LABB_COUNTER": [
+    "1.0.0"
+  ],
+  "DV_LAENDERGRUPPEN": [
+    "1.0.0"
+  ],
+  "DV_LANDAREA": [
+    "1.0.0"
+  ],
+  "DV_LANDKLASSE_GEO_AGG_ID": [
+    "1.0.0"
+  ],
+  "DV_LANDKLASSE_POL_AGG_ID": [
+    "1.0.0"
+  ],
+  "DV_LANGUAGES": [
+    "1.0.0"
+  ],
+  "DV_LANGUAGES_REGIONAL": [
+    "1.0.0"
+  ],
+  "DV_LAST_AIDS_TEST": [
+    "2017.0.0"
+  ],
+  "DV_LAST_BLOOD_DONATION": [
+    "2017.0.0"
+  ],
+  "DV_LAST_COLONOSCOPY_REASON": [
+    "2017.0.0"
+  ],
+  "DV_LAST_DATE_DT": [
+    "0.1.0"
+  ],
+  "DV_LAST_HAEMOCCULT_BLOOD_TEST_REASON": [
+    "2017.0.0"
+  ],
+  "DV_LAST_MAMMOGRAPHY_REASON": [
+    "2017.0.0"
+  ],
+  "DV_LAST_MAMMOGRAPHY_WHO_PROPOSED": [
+    "2017.0.0"
+  ],
+  "DV_LASTNAME": [
+    "1.0.0"
+  ],
+  "DV_LAST_OCCURRENCE_1_YEAR": [
+    "1.0.0"
+  ],
+  "DV_LAST_PROSTATE_EXAMINATION_METHOD_USED": [
+    "2017.0.0"
+  ],
+  "DV_LAST_PROSTATE_EXAMINATION_REASON": [
+    "2017.0.0"
+  ],
+  "DV_LAST_SEXUAL_PARTNER": [
+    "2017.0.0"
+  ],
+  "DV_LAUF_KS_N": [
+    "1.0.0"
+  ],
+  "DV_LAW": [
+    "1.0.0"
+  ],
+  "DV_LAW_CD": [
+    "0.1.0"
+  ],
+  "DV_LAWYER_DELAYED_FUNDING": [
+    "1.0.0"
+  ],
+  "DV_LAWYER_PROMPT_FUNDING": [
+    "1.0.0"
+  ],
+  "DV_LAWYER_REQUEST": [
+    "1.0.0"
+  ],
+  "DV_LEBEN_SCHWEIZ_AUSLAND": [
+    "2018.0.0"
+  ],
+  "DV_LEGAL_CASE": [
+    "1.0.0"
+  ],
+  "DV_LEGAL_DECISION": [
+    "1.0.0"
+  ],
+  "DV_LEGAL_HELP_IN": [
+    "1.0.0"
+  ],
+  "DV_LEGAL_HELP_OUT": [
+    "1.0.0"
+  ],
+  "DV_LEHRPLANANPASSUNGEN": [
+    "2017.0.0"
+  ],
+  "DV_LEI1": [
+    "2023.1.0"
+  ],
+  "DV_LEI2": [
+    "2023.1.0"
+  ],
+  "DV_LEI3": [
+    "2023.1.0"
+  ],
+  "DV_LEIBLICHE_ELTERN_CD_N": [
+    "1.0.0"
+  ],
+  "DV_LEISTUNGSART": [
+    "1.0.0"
+  ],
+  "DV_Leistungsklasse": [
+    "1.0.0"
+  ],
+  "DV_LENGTH": [
+    "1.1.0"
+  ],
+  "DV_LERNIDCAT": [
+    "1.0.0"
+  ],
+  "DV_LEVEL_EDUC5": [
+    "1.0.0"
+  ],
+  "DV_LEVEL_EDUC_CLASS_SHAPE": [
+    "2021.0.0"
+  ],
+  "DV_LIFT": [
+    "1.0.0"
+  ],
+  "DV_LINKED_CASE": [
+    "1.0.0"
+  ],
+  "DV_LISTE_BEZEICHNUNG": [
+    "1.0.0"
+  ],
+  "DV_LISTE_NUMMER": [
+    "1.0.0"
+  ],
+  "DV_LISTE_NUMMER_KANTON": [
+    "1.0.0"
+  ],
+  "DV_LISTENVERBINDUNG": [
+    "1.0.0"
+  ],
+  "DV_LN": [
+    "1.0.0"
+  ],
+  "DV_LOAD_CAPACITY": [
+    "1.0.0"
+  ],
+  "DV_LOCALITY": [
+    "1.0.0"
+  ],
+  "DV_LOCALITY_SIZE": [
+    "1.0.0"
+  ],
+  "DV_LOCALUNIT_STATUS": [
+    "1.0.0"
+  ],
+  "DV_LONG_STANDING_HEALTH_PROBLEM": [
+    "2017.0.0"
+  ],
+  "DV_LSI_FORMSECI": [
+    "1.0.0"
+  ],
+  "DV_LSVA_OBLIGATION": [
+    "1.0.0"
+  ],
+  "DV_MAHO_TEST": [
+    "1.0.0"
+  ],
+  "DV_MAINACTIVITY": [
+    "1.0.0"
+  ],
+  "DV_MAIN_SANCTION_KIND": [
+    "1.0.0"
+  ],
+  "DV_MANIFESTATIONSPART_BIBLI": [
+    "1.0.0"
+  ],
+  "DV_MANIFESTATIONSTOT_BIBLI": [
+    "1.0.0"
+  ],
+  "DV_MARKET_OR_NON_MARKET": [
+    "1.0.0"
+  ],
+  "DV_MASSNAHMEN": [
+    "2017.0.0"
+  ],
+  "DV_MATERIAL": [
+    "1.0.0"
+  ],
+  "DV_MATERIAL_HELP_IN": [
+    "1.0.0"
+  ],
+  "DV_MATERIAL_HELP_OUT": [
+    "1.0.0"
+  ],
+  "DV_MATTYP": [
+    "2022.1.0"
+  ],
+  "DV_MAX_PERMISSIBLE_WEIGHT": [
+    "1.0.0"
+  ],
+  "DV_MAX_PERMISSIBLE_WEIGHT_WITH_TRAILER": [
+    "1.0.0"
+  ],
+  "DV_MEAT_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_MEDICAL_DELAYED_FUNDING": [
+    "1.0.0"
+  ],
+  "DV_MEDICAL_HELP_IN": [
+    "1.0.0"
+  ],
+  "DV_MEDICAL_HELP_OUT": [
+    "1.0.0"
+  ],
+  "DV_MEDICAL_PROMPT_FUNDING": [
+    "1.0.0"
+  ],
+  "DV_MEDIC_ATTENTION_DEFICIT_DISORDER": [
+    "2017.0.0"
+  ],
+  "DV_MEDIC_BLOOD_PRESSURE": [
+    "2017.0.0"
+  ],
+  "DV_MEDIC_CHOLESTEROL": [
+    "2017.0.0"
+  ],
+  "DV_MEDIC_DEPRESSION": [
+    "2017.0.0"
+  ],
+  "DV_MEDIC_DIABETES": [
+    "2017.0.0"
+  ],
+  "DV_MEDIC_HEART": [
+    "2017.0.0"
+  ],
+  "DV_MEDIC_OSTEOPOROSIS": [
+    "2017.0.0"
+  ],
+  "DV_MEDIC_PAINKILLER": [
+    "2017.0.0"
+  ],
+  "DV_MEDIC_SEDATIVE": [
+    "2017.0.0"
+  ],
+  "DV_MEDIC_SLEEPING_PILL": [
+    "2017.0.0"
+  ],
+  "DV_MEMBERID": [
+    "1.0.0"
+  ],
+  "DV_MEN_HOMOSEXUAL-HETEROSEXUAL_INTERCOURSE": [
+    "2017.0.0"
+  ],
+  "DV_MEN_SEXUAL_ORIENTATION": [
+    "2017.0.0"
+  ],
+  "DV_MESURETYPE": [
+    "1.0.0"
+  ],
+  "DV_MINTFAC1": [
+    "2022.1.0"
+  ],
+  "DV_MINTFAC2": [
+    "2022.1.0"
+  ],
+  "DV_MITTLERE_ARBEITSZEIT_ERWERBSTAETIGE": [
+    "1.0.0"
+  ],
+  "DV_MOD_BUCHUNG_AUSGABEN": [
+    "0.1.0"
+  ],
+  "DV_MOD_BUCHUNG_EINNAHMEN": [
+    "1.0.0"
+  ],
+  "DV_MONAT": [
+    "1.0.0"
+  ],
+  "DV_MONTANT": [
+    "1.0.0"
+  ],
+  "DV_MORAL_COMPENSATION_AMT": [
+    "1.0.0"
+  ],
+  "DV_MOVEORDER": [
+    "1.0.0"
+  ],
+  "DV_MOVETYPE_ASSTAT": [
+    "1.0.0"
+  ],
+  "DV_MOVETYPE_DVS": [
+    "1.0.0"
+  ],
+  "DV_MOVETYPE_STATPOP": [
+    "1.0.0"
+  ],
+  "DV_MULTIFAKTORPRODUKTIVITAT": [
+    "1.0.0"
+  ],
+  "DV_MULTILINGUAL": [
+    "1.0.0"
+  ],
+  "DV_MUNICIPALITY_STAY_DURATION": [
+    "1.0.0"
+  ],
+  "DV_MUTTERSCHAFTSURLAUB": [
+    "1.0.0"
+  ],
+  "DV_MZB_ACT_ID": [
+    "2021.0.0"
+  ],
+  "DV_MZB_RESPONDENT_ID": [
+    "2021.0.0"
+  ],
+  "DV_NAMENSWAHL_CD_N": [
+    "1.0.0"
+  ],
+  "DV_NATIONALITY_PARTNER": [
+    "1.0.0"
+  ],
+  "DV_NATIONALITYRESIDENCE": [
+    "1.0.0"
+  ],
+  "DV_NB_CANCER_EST": [
+    "1.0.0"
+  ],
+  "DV_NB_CANCER_OBS": [
+    "1.0.0"
+  ],
+  "DV_NB_LEERWOHNUNGEN": [
+    "1.0.0"
+  ],
+  "DV_NB_PART_MEN": [
+    "1.0.0"
+  ],
+  "DV_NB_PERS_CANCER_REG": [
+    "1.0.0"
+  ],
+  "DV_NB_VOYC_CH": [
+    "1.0.0"
+  ],
+  "DV_NB_VOYC_ETR": [
+    "1.0.0"
+  ],
+  "DV_N_COORD_EPSG2056": [
+    "1.0.0"
+  ],
+  "DV_NET_MASS_AT_BORDER": [
+    "1.0.0"
+  ],
+  "DV_NETTOBEDARF": [
+    "1.0.0"
+  ],
+  "DV_neugeboren": [
+    "1.0.0"
+  ],
+  "DV_NEVER_DAILY_SCALE7": [
+    "1.0.0"
+  ],
+  "DV_NEVER_THREEORMORE_SCALE4": [
+    "1.2.0"
+  ],
+  "DV_NFEDUC_INFLEARN_PART": [
+    "2021.0.0"
+  ],
+  "DV_NOCOMPENSATION": [
+    "1.0.0"
+  ],
+  "DV_NOMBRE_BIBLI": [
+    "1.0.0"
+  ],
+  "DV_NONFORMALEDUC_TYPE": [
+    "2011.0.0"
+  ],
+  "DV_NONMEDICAL_DELAYED_FUNDING": [
+    "1.0.0"
+  ],
+  "DV_NONMEDICAL_PROMPT_FUNDING": [
+    "1.0.0"
+  ],
+  "DV_NORMAL_HOURS": [
+    "1.0.0"
+  ],
+  "DV_NORMAL_WORKWEEK_COMPANY": [
+    "1.0.0"
+  ],
+  "DV_NUMBER_CE_ACT": [
+    "2021.0.0"
+  ],
+  "DV_NUMBER_CE_ACT_NONPROF": [
+    "2021.0.0"
+  ],
+  "DV_NUMBER_CE_ACT_PROF": [
+    "2021.0.0"
+  ],
+  "DV_NUMBEROFBATHROOMS": [
+    "1.0.0"
+  ],
+  "DV_NUMBEROFPARKINGS": [
+    "1.0.0"
+  ],
+  "DV_NUMERAL_CD": [
+    "0.1.0"
+  ],
+  "DV_NUTS1": [
+    "2021.0.0"
+  ],
+  "DV_NUTS2": [
+    "2021.0.0"
+  ],
+  "DV_NUTS3": [
+    "2021.0.0"
+  ],
+  "DV_NUTZUNG_EMEDIA_BIBLI": [
+    "1.0.0"
+  ],
+  "DV_OAK_KOTRANS": [
+    "1.0.0"
+  ],
+  "DV_OAK_TER": [
+    "1.0.0"
+  ],
+  "DV_OBJETS_MUSEUM": [
+    "1.0.0"
+  ],
+  "DV_OB_ORTS": [
+    "1.0.0"
+  ],
+  "DV_OCCUPATION_RATE": [
+    "1.0.0"
+  ],
+  "DV_OCCUPATION_TYPE": [
+    "1.0.0"
+  ],
+  "DV_OFFENCE_GRAVITY": [
+    "1.0.0"
+  ],
+  "DV_OFFENCE_VOSTRA": [
+    "1.0.0"
+  ],
+  "DV_OID": [
+    "1.0.0"
+  ],
+  "DV_OID_GTE": [
+    "1.0.0"
+  ],
+  "DV_ONCE_MULTIPLE_NO": [
+    "1.0.0"
+  ],
+  "DV_ONLINE_MUSEUM": [
+    "1.0.0"
+  ],
+  "DV_ORIGINALDATE": [
+    "2020.1.0"
+  ],
+  "DV_ORT_HUETEN_GROSSKIND": [
+    "2018.1.0"
+  ],
+  "DV_OSS3_HELP_OF_NEIGHBOURS": [
+    "2017.0.0"
+  ],
+  "DV_OSS3_INTEREST_OF_PEOPLE": [
+    "2017.0.0"
+  ],
+  "DV_OSS3_NUMBER_CLOSE_PEOPLE": [
+    "2017.0.0"
+  ],
+  "DV_OTHER_DELAYED_FUNDING": [
+    "1.0.0"
+  ],
+  "DV_OTHER_HELP_IN": [
+    "1.0.0"
+  ],
+  "DV_OTHER_HELP_OUT": [
+    "1.0.0"
+  ],
+  "DV_OTHER_PROMPT_FUNDING": [
+    "1.0.0"
+  ],
+  "DV_OTHER_REQUEST": [
+    "1.0.0"
+  ],
+  "DV_OTHER_SEX_INTEGRITY_OHS": [
+    "1.0.0"
+  ],
+  "DV_OTHER_STGB_OHS": [
+    "1.0.0"
+  ],
+  "DV_OVERTIME": [
+    "1.0.0"
+  ],
+  "DV_PAARE_GRUND_GETRENNTLEBEN": [
+    "2018.0.0"
+  ],
+  "DV_PARENTSBIRTHPLACE": [
+    "1.0.0"
+  ],
+  "DV_PAROLEN": [
+    "1.0.0"
+  ],
+  "DV_PARTCHSYL": [
+    "1.0.0"
+  ],
+  "DV_PARTEI_STAERKE": [
+    "1.0.0"
+  ],
+  "DV_PART_TIME_OCCUPATION_RATE": [
+    "2017.0.0"
+  ],
+  "DV_PERCENT_CAT": [
+    "1.0.0"
+  ],
+  "DV_PERMIS_AGGR": [
+    "1.0.0"
+  ],
+  "DV_PERSONID": [
+    "1.0.0"
+  ],
+  "DV_PERSONID_KATEGORIE": [
+    "1.0.0"
+  ],
+  "DV_PFLANZBAUM": [
+    "1.0.0"
+  ],
+  "DV_PFLEGEUNTERSTUETZUNG": [
+    "1.0.0"
+  ],
+  "DV_PHKAT": [
+    "2022.1.0"
+  ],
+  "DV_PHONENUMBER": [
+    "1.0.0"
+  ],
+  "DV_PHS": [
+    "1.0.0"
+  ],
+  "DV_Pizza_type": [
+    "0.1.0"
+  ],
+  "DV_PKAT1": [
+    "2023.1.0"
+  ],
+  "DV_PKAT2": [
+    "2023.1.0"
+  ],
+  "DV_PKAT3": [
+    "2023.1.0"
+  ],
+  "DV_PK_CASE": [
+    "0.1.0"
+  ],
+  "DV_PK_DRUG": [
+    "0.1.0"
+  ],
+  "DV_PK_LOCALITY": [
+    "0.1.0"
+  ],
+  "DV_PK_MEASURE": [
+    "0.1.0"
+  ],
+  "DV_PK_MODUS": [
+    "0.1.0"
+  ],
+  "DV_PK_OFFENCE": [
+    "0.1.0"
+  ],
+  "DV_PK_PERS": [
+    "1.0.0"
+  ],
+  "DV_PKSTAT_KOMMENTAR": [
+    "1.0.0"
+  ],
+  "DV_PKSTAT_KONTO": [
+    "1.0.0"
+  ],
+  "DV_PKSTAT_STICHPROBE": [
+    "1.0.0"
+  ],
+  "DV_PKSTAT_UEBERSCHUSS": [
+    "1.0.0"
+  ],
+  "DV_PK_SUSPECT": [
+    "0.1.0"
+  ],
+  "DV_PK_VICTIM": [
+    "0.1.0"
+  ],
+  "DV_PK_ZINS": [
+    "1.0.0"
+  ],
+  "DV_PLACES_LECTURETRAVAIL_BIBLI": [
+    "1.0.0"
+  ],
+  "DV_POC_KD_FIKTIVE_GEMEINDEN": [
+    "1.0.0"
+  ],
+  "DV_POIDS_AD": [
+    "1.0.0"
+  ],
+  "DV_POL_AKTEURE": [
+    "1.0.0"
+  ],
+  "DV_POLITICAL_ORIENTATION_SCALE12": [
+    "1.0.0"
+  ],
+  "DV_POL_ORGAN": [
+    "1.0.0"
+  ],
+  "DV_POL_PARTEI": [
+    "1.0.0"
+  ],
+  "DV_Poor_HY020": [
+    "1.0.0"
+  ],
+  "DV_Poor_HY022": [
+    "1.0.0"
+  ],
+  "DV_Poor_HY023": [
+    "1.0.0"
+  ],
+  "DV_POP_POVSTAT": [
+    "0.1.0"
+  ],
+  "DV_POPULATION_GROUP": [
+    "1.0.0"
+  ],
+  "DV_POPULATION_TYPE": [
+    "1.0.0"
+  ],
+  "DV_POS_IN_HH": [
+    "1.0.0"
+  ],
+  "DV_PREOCCUPATION_3": [
+    "1.0.0"
+  ],
+  "DV_PRESCRIPTION_PAINKILLER": [
+    "2017.0.0"
+  ],
+  "DV_PRESCRIPTION_SEDATIVE": [
+    "2017.0.0"
+  ],
+  "DV_PRESCRIPTION_SLEEPING_PILL": [
+    "2017.0.0"
+  ],
+  "DV_PRETS_BIBLI": [
+    "1.0.0"
+  ],
+  "DV_PROCESS_KIND": [
+    "1.0.0"
+  ],
+  "DV_PROFESSIONS_TEXT": [
+    "1.0.0"
+  ],
+  "DV_PROF_NONPROF_NFEDUC_PART": [
+    "2021.0.0"
+  ],
+  "DV_PROPERTYCONDITION": [
+    "1.0.0"
+  ],
+  "DV_PROSTITUTION_OHS": [
+    "1.0.0"
+  ],
+  "DV_PROTECTION_DELAYED_FUNDING": [
+    "1.0.0"
+  ],
+  "DV_PROTECTION_HELP_IN": [
+    "1.0.0"
+  ],
+  "DV_PROTECTION_HELP_OUT": [
+    "1.0.0"
+  ],
+  "DV_PROTECTION_PROMPT_FUNDING": [
+    "1.0.0"
+  ],
+  "DV_PROVISIONAL_COMPENSATION_AMT": [
+    "1.0.0"
+  ],
+  "DV_PRUF_ERFOLG": [
+    "1.2.0"
+  ],
+  "DV_PSEUDO": [
+    "1.0.0"
+  ],
+  "DV_PSYCHO_HELP_IN": [
+    "1.0.0"
+  ],
+  "DV_PSYCHO_HELP_OUT": [
+    "1.0.0"
+  ],
+  "DV_PUBKLCH23OBLIG": [
+    "4.0.0"
+  ],
+  "DV_PUBKLCH23SEC2": [
+    "4.0.0"
+  ],
+  "DV_PUBLICTRANSPORTQUALITY": [
+    "1.0.0"
+  ],
+  "DV_QRT": [
+    "2017.0.0"
+  ],
+  "DV_QUALITY_1": [
+    "1.0.0"
+  ],
+  "DV_QUALITY_2": [
+    "1.0.0"
+  ],
+  "DV_QUALITY_CHBUERGER_VES": [
+    "1.0.0"
+  ],
+  "DV_QUALITY_EFG": [
+    "1.0.0"
+  ],
+  "DV_QUALITY_NEGATIVE": [
+    "1.0.0"
+  ],
+  "DV_QUALITY_OF_LIFE": [
+    "2017.0.0"
+  ],
+  "DV_QUALITY_RELIGION": [
+    "1.0.0"
+  ],
+  "DV_QUALITY_STATPOP": [
+    "1.0.0"
+  ],
+  "DV_QUALITY_UNKNOWN_STATE": [
+    "1.0.0"
+  ],
+  "DV_QUALITY_VES": [
+    "1.0.0"
+  ],
+  "DV_QUARTAL": [
+    "1.0.0"
+  ],
+  "DV_RANG_N": [
+    "1.0.0"
+  ],
+  "DV_REASON_RETURN_TO_PARENTS": [
+    "1.0.0"
+  ],
+  "DV_RECORD": [
+    "2020.1.0"
+  ],
+  "DV_REF_AREA": [
+    "1.0.0"
+  ],
+  "DV_REG_BVG": [
+    "1.0.0"
+  ],
+  "DV_REG_DATE_DT": [
+    "0.1.0"
+  ],
+  "DV_REGISTRATION_UNIT_TX": [
+    "0.1.0"
+  ],
+  "DV_REGRESS": [
+    "1.0.0"
+  ],
+  "DV_REISENR": [
+    "1.0.0"
+  ],
+  "DV_REISETYP": [
+    "1.0.0"
+  ],
+  "DV_REISEZWECK": [
+    "1.0.0"
+  ],
+  "DV_REISEZWECKAUSFLUGFERIEN": [
+    "1.0.0"
+  ],
+  "DV_REL_CONFCLASS": [
+    "1.0.0"
+  ],
+  "DV_REL_CONFESSIONS": [
+    "1.0.0"
+  ],
+  "DV_REL_CONFGROUP": [
+    "1.0.0"
+  ],
+  "DV_REL_CONFSUBCLASS": [
+    "1.0.0"
+  ],
+  "DV_RELEVANZ_SCALE5": [
+    "1.0.0"
+  ],
+  "DV_RELIGION_COMMUNITY_SCALE12": [
+    "2.0.0"
+  ],
+  "DV_RELIGION_PRAKTIK": [
+    "1.0.0"
+  ],
+  "DV_REL_RELIGIONS": [
+    "1.0.0"
+  ],
+  "DV_RENTALL": [
+    "1.0.0"
+  ],
+  "DV_RENTBESIDE": [
+    "1.0.0"
+  ],
+  "DV_RENTE_PREVOYANCE_VIEILLESSE": [
+    "1.0.0"
+  ],
+  "DV_RENTNET": [
+    "1.0.0"
+  ],
+  "DV_REQUEST": [
+    "1.0.0"
+  ],
+  "DV_RESIDENCE_X_YEAR_AGO": [
+    "1.0.0"
+  ],
+  "DV_RESPONSE_CHANNEL": [
+    "1.0.0"
+  ],
+  "DV_RESPONSIBLE": [
+    "0.1.0"
+  ],
+  "DV_REVENU_MENSUEL_CDC": [
+    "1.0.0"
+  ],
+  "DV_RTYPXKOSTENY": [
+    "1.0.0"
+  ],
+  "DV_RUECKZA": [
+    "1.0.0"
+  ],
+  "DV_SAGT": [
+    "1.0.0"
+  ],
+  "DV_SAKO1_CEA_ALI": [
+    "1.0.0"
+  ],
+  "DV_SAKO1_CEA_SEQUENCE": [
+    "1.0.0"
+  ],
+  "DV_SAKO1_CES_SEQUENCE": [
+    "1.0.0"
+  ],
+  "DV_SAKO1_CES_STANDINGTIMBER_BALANCE": [
+    "1.0.0"
+  ],
+  "DV_SAKO1_CES_STANDINGTIMBER_TYPES": [
+    "1.0.0"
+  ],
+  "DV_SAKO1_CES_WOODLAND_BALANCE": [
+    "1.0.0"
+  ],
+  "DV_SAKO1_CES_WOODLAND_TYPES": [
+    "1.0.0"
+  ],
+  "DV_SAKO1_DOMAINS": [
+    "1.0.0"
+  ],
+  "DV_SAKO1_METHODE": [
+    "1.0.0"
+  ],
+  "DV_SAKO1_MODULES": [
+    "1.0.0"
+  ],
+  "DV_SAKO1_REVISIONS": [
+    "1.0.0"
+  ],
+  "DV_SAKO1_VALUE": [
+    "1.0.0"
+  ],
+  "DV_SALAIRE_BRUT_CONT": [
+    "1.0.0"
+  ],
+  "DV_SALTED_SNACKS_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_SALTED_SNACKS_QUANTITY": [
+    "2017.0.0"
+  ],
+  "DV_SAMPLE_UNIT_ENT": [
+    "1.0.0"
+  ],
+  "DV_SANCTION_CATEGORIES": [
+    "1.0.0"
+  ],
+  "DV_SATELLITE_VALORISATION": [
+    "1.0.0"
+  ],
+  "DV_SATISFACTION_4": [
+    "2018.0.0"
+  ],
+  "DV_SATISFACTION_5": [
+    "1.0.0"
+  ],
+  "DV_SATISFACTION_SCALE11": [
+    "1.0.0"
+  ],
+  "DV_SCALE4_NOT_TO_TOTALLY": [
+    "1.0.0"
+  ],
+  "DV_SCALE5_IMPORTANCE": [
+    "2.0.0"
+  ],
+  "DV_SCALE5_NOT_TO_GREATEXTENT": [
+    "1.0.0"
+  ],
+  "DV_SCALE5_SATISFACTION": [
+    "1.0.0"
+  ],
+  "DV_SCHAETZUNG": [
+    "1.0.0"
+  ],
+  "DV_SCHULART": [
+    "2019.0.0"
+  ],
+  "DV_SCHULJAHR": [
+    "1.0.0"
+  ],
+  "DV_SCHWANGER_KRANKGESCHRIEBEN": [
+    "1.0.0"
+  ],
+  "DV_SEASONAL_ADJUST": [
+    "1.0.0"
+  ],
+  "DV_SEATED_POSITION_INTERRUPTION_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_SECONDARY_RESIDENCE_COUNT": [
+    "1.0.0"
+  ],
+  "DV_SEEA_STO": [
+    "1.0.0"
+  ],
+  "DV_SEEING_SUFFICIENTLY_TO_READ": [
+    "2017.0.0"
+  ],
+  "DV_SELF_PERCEIVED_HEALTH": [
+    "2017.0.0"
+  ],
+  "DV_SEMESTER": [
+    "1.0.0"
+  ],
+  "DV_SERIOUSNESS_SCALE4": [
+    "2.0.0"
+  ],
+  "DV_SERVICE_CD": [
+    "1.0.0"
+  ],
+  "DV_SERVICE_QTY": [
+    "1.0.0"
+  ],
+  "DV_SERVICE_TYPE": [
+    "1.0.0"
+  ],
+  "DV_SEX_CONSTRAINT_OHS": [
+    "1.0.0"
+  ],
+  "DV_SEXUAL_INTERCOURSE_12M_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_SHAPE_HAUSHALTSTYP_E_SAKE": [
+    "1.0.0"
+  ],
+  "DV_SHAPE_HAUSHALTSTYP_Z_E01": [
+    "3.5.0"
+  ],
+  "DV_SHISFIELD4": [
+    "2022.1.0"
+  ],
+  "DV_SHISFIELDS1": [
+    "2020.0.0"
+  ],
+  "DV_SHISFIELDS2": [
+    "2020.0.0"
+  ],
+  "DV_SHISFIELDS3": [
+    "2020.0.0"
+  ],
+  "DV_SHOULDER_NECK_ARM_PAIN_WORK_RELATED": [
+    "2017.0.0"
+  ],
+  "DV_SOCIAL_HELP_IN": [
+    "1.0.0"
+  ],
+  "DV_SOCIAL_HELP_OUT": [
+    "1.0.0"
+  ],
+  "DV_SOCIAL_PARTICIPATION_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_SOMEONE_TO_TALK": [
+    "2017.0.0"
+  ],
+  "DV_SORGERECHT": [
+    "1.0.0"
+  ],
+  "DV_SOURCE": [
+    "1.0.0"
+  ],
+  "DV_SOURCE_DEMO": [
+    "1.0.0"
+  ],
+  "DV_SOURCE_EDU": [
+    "1.2.0"
+  ],
+  "DV_SPEAKING_WITHOUT_DIFFICULTIES": [
+    "2017.0.0"
+  ],
+  "DV_SPIGES_FALLID": [
+    "1.0.0"
+  ],
+  "DV_SPIRITS_12M_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_SPIRITS_12M_QUANTITY": [
+    "2017.0.0"
+  ],
+  "DV_SPIRITS_7DAY_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_SPIRITS_7DAY_QUANTITY": [
+    "2017.0.0"
+  ],
+  "DV_splg": [
+    "1.0.0"
+  ],
+  "DV_SPLGMFZ": [
+    "1.0.0"
+  ],
+  "DV_ST_2022_1": [
+    "2022.1.0"
+  ],
+  "DV_STAGE_MANUF": [
+    "1.0.0"
+  ],
+  "DV_ST_AGG": [
+    "2022.1.0"
+  ],
+  "DV_STANDES_STIMMEN": [
+    "1.0.0"
+  ],
+  "DV_STARTWORK": [
+    "1.0.0"
+  ],
+  "DV_STATES_GROUPING": [
+    "1.0.0"
+  ],
+  "DV_STATISTICAL_STATUS": [
+    "1.0.0"
+  ],
+  "DV_STATISTICAL_VALUE_AT_BORDER": [
+    "1.0.0"
+  ],
+  "DV_STATISTIKFALL": [
+    "1.0.0"
+  ],
+  "DV_STATKREBS_INDICATOR": [
+    "1.0.0"
+  ],
+  "DV_STATKREBS_KENNZAHLEN": [
+    "1.0.0"
+  ],
+  "DV_STATKREBS_PERIODS": [
+    "1.0.0"
+  ],
+  "DV_STATKREBS_RL": [
+    "1.0.0"
+  ],
+  "DV_STATKREBS_SITES_ICD10": [
+    "1.0.0"
+  ],
+  "DV_STATUSINEMPL_DETAIL": [
+    "1.0.0"
+  ],
+  "DV_STATUS_LIVRAISON": [
+    "1.0.0"
+  ],
+  "DV_ST_BERUF_N": [
+    "1.0.0"
+  ],
+  "DV_STELLUNG_HAUSHALT": [
+    "2018.0.0"
+  ],
+  "DV_STELLUNG_UNTERSTUETZUNGSEINHEIT": [
+    "0.1.0"
+  ],
+  "DV_STILLE_WAHL": [
+    "1.0.0"
+  ],
+  "DV_STIMMBERECHTIGTE": [
+    "1.0.0"
+  ],
+  "DV_STIMMBETEILIGUNG": [
+    "1.0.0"
+  ],
+  "DV_STIMMEN": [
+    "1.0.0"
+  ],
+  "DV_STIMMENANTEIL": [
+    "1.0.0"
+  ],
+  "DV_ST_ISO_3166_ALPHA_2_UD_2021_1": [
+    "1.0.0"
+  ],
+  "DV_STRATE_MZB": [
+    "2021.0.0"
+  ],
+  "DV_STR_BETRAG": [
+    "1.0.0"
+  ],
+  "DV_STR_CODE": [
+    "1.0.0"
+  ],
+  "DV_STR_GEWICHT": [
+    "1.0.0"
+  ],
+  "DV_STRING": [
+    "1.0.0"
+  ],
+  "DV_STUFE": [
+    "2022.1.0"
+  ],
+  "DV_STUFEX": [
+    "2022.1.0"
+  ],
+  "DV_STUF_SURF_2019": [
+    "1.0.0"
+  ],
+  "DV_STUNDEN": [
+    "1.0.0"
+  ],
+  "DV_SUBCLASSES_OF_LANGUAGES": [
+    "1.0.0"
+  ],
+  "DV_SUBSIDIARY": [
+    "1.0.0"
+  ],
+  "DV_SUGARY_DRINKS_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_SUGARY_DRINKS_QUANTITY": [
+    "2017.0.0"
+  ],
+  "DV_SUMID": [
+    "1.0.0"
+  ],
+  "DV_SUMTOTAL": [
+    "1.0.0"
+  ],
+  "DV_SWEETS_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_SWEETS_QUANTITY": [
+    "2017.0.0"
+  ],
+  "DV_SWITZERLAND_ABROAD_BOTH": [
+    "1.0.0"
+  ],
+  "DV_TAFEL_GEN": [
+    "1.0.0"
+  ],
+  "DV_TAFEL_PER": [
+    "1.0.0"
+  ],
+  "DV_TARES_STATISTICAL_KEY": [
+    "1.0.0"
+  ],
+  "DV_TEILSCHULEN_FH": [
+    "2022.1.0"
+  ],
+  "DV_TEILZEIT_GRUND": [
+    "1.0.0"
+  ],
+  "DV_TEMP_DELAYED_FUNDING": [
+    "1.0.0"
+  ],
+  "DV_TEMP_PROMPT_FUNDING": [
+    "1.0.0"
+  ],
+  "DV_TERM": [
+    "1.0.0"
+  ],
+  "DV_TEST": [
+    "1.0.0"
+  ],
+  "DV_TESTSus": [
+    "0.1.0"
+  ],
+  "DV_TEST_TIM": [
+    "1.0.0"
+  ],
+  "DV_TEST_TIM1": [
+    "1.0.0"
+  ],
+  "DV_TEZI_RENT": [
+    "1.0.0"
+  ],
+  "DV_TEZI_VERS": [
+    "1.0.0"
+  ],
+  "DV_THEMA_POLVOTE": [
+    "1.0.0"
+  ],
+  "DV_THREAT_OHS": [
+    "1.0.0"
+  ],
+  "DV_TIME_FORMAT": [
+    "1.0.0"
+  ],
+  "DV_TIME_PER_COLLECT": [
+    "1.0.0"
+  ],
+  "DV_TOOMUCH_NEEDS_NOTENOUGH": [
+    "2.0.0"
+  ],
+  "DV_TOTALWHG": [
+    "1.0.0"
+  ],
+  "DV_TRAFFICK_HUMAN_OHS": [
+    "1.0.0"
+  ],
+  "DV_TRAILER-HITCH": [
+    "1.0.0"
+  ],
+  "DV_TRANSFER_DATE_DT": [
+    "0.1.0"
+  ],
+  "DV_TRANSFORMATION": [
+    "1.4.0"
+  ],
+  "DV_TRANSLAT_DELAYED_FUNDING": [
+    "1.0.0"
+  ],
+  "DV_TRANSLAT_PROMPT_FUNDING": [
+    "1.0.0"
+  ],
+  "DV_TRANSPORT_DELAYED_FUNDING": [
+    "1.0.0"
+  ],
+  "DV_TRANSPORT_KM_CH": [
+    "1.0.0"
+  ],
+  "DV_TRANSPORT_KM_TOTAL": [
+    "1.0.0"
+  ],
+  "DV_TRANSPORT_PROMPT_FUNDING": [
+    "1.0.0"
+  ],
+  "DV_TRENNUNG_EHE": [
+    "1.0.0"
+  ],
+  "DV_TRENNUNG_O_TOD": [
+    "1.0.0"
+  ],
+  "DV_TV_Alter": [
+    "0.1.0"
+  ],
+  "DV_TV_Alter_first": [
+    "0.1.0"
+  ],
+  "DV_TV_BFS_PERSONAL_NR": [
+    "0.1.0"
+  ],
+  "DV_TV_BIRTH_DATE_DT": [
+    "0.1.0"
+  ],
+  "DV_TV_BIRTH_DATE_TX": [
+    "0.1.0"
+  ],
+  "DV_TV_CLEAR_DATE_DT": [
+    "0.1.0"
+  ],
+  "DV_TV_FK_PERSON": [
+    "0.1.0"
+  ],
+  "DV_TV_REG_DATE_DT": [
+    "0.1.0"
+  ],
+  "DV_TV_SUP_PERSONAL_NR_TX": [
+    "0.1.0"
+  ],
+  "DV_TYP_BK_POLVOTE": [
+    "1.0.0"
+  ],
+  "DV_TYPE_BIBLI": [
+    "1.0.0"
+  ],
+  "DV_TYPE_MUSEUM": [
+    "1.0.0"
+  ],
+  "DV_TYPE_OF_ARRIVAL": [
+    "1.0.0"
+  ],
+  "DV_TYPEOFRESIDENCE": [
+    "1.0.1",
+    "1.0.0"
+  ],
+  "DV_TYP_ERW_OBL": [
+    "1.0.0"
+  ],
+  "DV_TYP_HAUSHALT_STAT_IVG": [
+    "1.0.0"
+  ],
+  "DV_TYPOL_SPITAL": [
+    "1.0.0"
+  ],
+  "DV_TYP_PARTNERSCHAFT": [
+    "2018.0.0"
+  ],
+  "DV_U200": [
+    "1.0.0"
+  ],
+  "DV_UGRUND_CD_N": [
+    "1.0.0"
+  ],
+  "DV_UID_NAME": [
+    "1.0.0"
+  ],
+  "DV_Umzugsdist": [
+    "1.0.0"
+  ],
+  "DV_UNCLEAR_OHS": [
+    "1.0.0"
+  ],
+  "DV_UNI": [
+    "2022.1.0"
+  ],
+  "DV_UNITESPHYSIQUES_BIBLI": [
+    "1.0.0"
+  ],
+  "DV_UNIT_INDICE": [
+    "1.0.0"
+  ],
+  "DV_UNIT_MEASURE_IMF": [
+    "1.0.0"
+  ],
+  "DV_UNIT_OBS": [
+    "1.0.0"
+  ],
+  "DV_UNIT_STATUS": [
+    "1.0.0"
+  ],
+  "DV_UNPAID_ACTIVITY": [
+    "1.0.0"
+  ],
+  "DV_UNTERHALTSBEITRAEGE_ERHALTEN_O_BEZAHLT": [
+    "1.0.0"
+  ],
+  "DV_UNTERKUNFT_RV": [
+    "1.0.0"
+  ],
+  "DV_URNENGANG": [
+    "1.0.0"
+  ],
+  "DV_USUAL_HOURS": [
+    "1.0.0"
+  ],
+  "DV_UTILISATEURS_BIBLI": [
+    "1.0.0"
+  ],
+  "DV_VALID_AT": [
+    "1.0.0"
+  ],
+  "DV_VARIATION": [
+    "1.0.0"
+  ],
+  "DV_VAT_ENTRY_STATUS": [
+    "1.0.0"
+  ],
+  "DV_VEGETABLES_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_VEGETABLES_QUANTITY": [
+    "2017.0.0"
+  ],
+  "DV_VEHICLE_AGE": [
+    "1.0.0"
+  ],
+  "DV_VEHICLE_KM_CH": [
+    "1.0.0"
+  ],
+  "DV_VEHICLE_KM_TOTAL": [
+    "1.0.0"
+  ],
+  "DV_VEHICLE_TYPE": [
+    "1.0.0"
+  ],
+  "DV_VERKEHRSART": [
+    "1.0.0"
+  ],
+  "DV_VERKEHRSMITTELKLASSEHIN": [
+    "1.0.0"
+  ],
+  "DV_VERPFLEGUNGSART": [
+    "1.0.0"
+  ],
+  "DV_VERSICHERUNGSFORM_ID": [
+    "1.0.0"
+  ],
+  "DV_VERSION_GROUPER": [
+    "1.0.0"
+  ],
+  "DV_VERS_UNT": [
+    "1.0.0"
+  ],
+  "DV_VERYGOOD_VERYBAD_SCALE4": [
+    "2.0.0"
+  ],
+  "DV_VGR_TEST": [
+    "1.0.0"
+  ],
+  "DV_VIC_Alter": [
+    "0.1.0"
+  ],
+  "DV_VIC_Alter_first": [
+    "0.1.0"
+  ],
+  "DV_VIC_BFS_PERSONAL_NR": [
+    "0.1.0"
+  ],
+  "DV_VIC_BIRTH_DATE_DT": [
+    "0.1.0"
+  ],
+  "DV_VIC_BIRTH_DATE_TX": [
+    "0.1.0"
+  ],
+  "DV_VIC_FK_PERSON": [
+    "0.1.0"
+  ],
+  "DV_VIC_REGISTERED_AT_DT": [
+    "0.1.0"
+  ],
+  "DV_VIC_SUP_PERSONAL_NR_TX": [
+    "0.1.0"
+  ],
+  "DV_VICTIM_STATUS": [
+    "1.0.0"
+  ],
+  "DV_VISITES_MUSEUM": [
+    "1.0.0"
+  ],
+  "DV_VORSORGEFORM_ID": [
+    "1.0.1"
+  ],
+  "DV_VW_UNT": [
+    "1.0.0"
+  ],
+  "DV_WAHLBERECHTIGTE": [
+    "1.0.0"
+  ],
+  "DV_WAHLBETEILIGUNG": [
+    "1.0.0"
+  ],
+  "DV_WAHLKREIS": [
+    "1.0.0"
+  ],
+  "DV_WAHLKREIS_NUMMER": [
+    "1.0.0"
+  ],
+  "DV_WAHL_MODUS": [
+    "1.0.0"
+  ],
+  "DV_WAHL_NRW": [
+    "1.0.0"
+  ],
+  "DV_WAHL_TYP": [
+    "1.0.0"
+  ],
+  "DV_WAHL_VZ_TZ": [
+    "1.0.0"
+  ],
+  "DV_WAHLZETTEL": [
+    "1.0.0"
+  ],
+  "DV_WALDFLACHE": [
+    "1.0.0"
+  ],
+  "DV_WALKING_DISTANCE_WITHOUT_DIFFICULTIES": [
+    "2017.0.0"
+  ],
+  "DV_WEEKLY_NEVERLASTYEAR_SCALE5": [
+    "1.0.0"
+  ],
+  "DV_WEIGHT_EFG": [
+    "1.0.0"
+  ],
+  "DV_WEIGHT_GGS": [
+    "1.0.0"
+  ],
+  "DV_WEIGHT_HOUSEHOLD_OMNI": [
+    "1.0.0"
+  ],
+  "DV_WEIGHTING_FACTOR_GTE": [
+    "1.0.0"
+  ],
+  "DV_WEIGHT_MZB_PERSON": [
+    "2021.0.0"
+  ],
+  "DV_WEIGHT_MZB_RND_SELECT_CE": [
+    "2021.0.0"
+  ],
+  "DV_WEIGHT_OF_GOODS": [
+    "1.0.0"
+  ],
+  "DV_WEIGHT_OMNI": [
+    "1.0.0"
+  ],
+  "DV_WEIGHT_SATISFACTION": [
+    "2017.0.0"
+  ],
+  "DV_WEIGHT_SE": [
+    "1.0.0"
+  ],
+  "DV_WEIGHT_STRATE_EFG": [
+    "1.0.0"
+  ],
+  "DV_WIEDEREINTRITTE_5": [
+    "1.0.0"
+  ],
+  "DV_WINCH": [
+    "1.0.0"
+  ],
+  "DV_WINE_12M_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_WINE_12M_QUANTITY": [
+    "2017.0.0"
+  ],
+  "DV_WINE_7DAY_FREQUENCY": [
+    "2017.0.0"
+  ],
+  "DV_WINE_7DAY_QUANTITY": [
+    "2017.0.0"
+  ],
+  "DV_WIRTSCHAFTSJAHR": [
+    "1.0.0"
+  ],
+  "DV_WOCHENTAGE": [
+    "1.0.0"
+  ],
+  "DV_WOHNEN_KIND": [
+    "2018.0.0"
+  ],
+  "DV_WOHNSITZTYP": [
+    "1.0.0"
+  ],
+  "DV_WOHNSTATUS": [
+    "2.0.1",
+    "2.0.0",
+    "1.0.0"
+  ],
+  "DV_WOMEN_HOMOSEXUAL-HETEROSEXUAL_INTERCOURSE": [
+    "2017.0.0"
+  ],
+  "DV_WOMEN_SEXUAL_ORIENTATION": [
+    "2017.0.0"
+  ],
+  "DV_WORKING_PEOPLE_FULL_TIME_PART_TIME": [
+    "2017.0.0"
+  ],
+  "DV_WORKSIT_MODUA": [
+    "1.0.0"
+  ],
+  "DV_WORKSTATUS_DETAIL": [
+    "1.0.0"
+  ],
+  "DV_WORK_TYPES": [
+    "1.0.0"
+  ],
+  "DV_WUNSCH_JA_NEIN_4C": [
+    "2018.0.0"
+  ],
+  "DV_XML_YES_NO": [
+    "0.1.0"
+  ],
+  "DV_YES_NO_EU": [
+    "1.0.0"
+  ],
+  "DV_ZAEHLKREIS_POLVOTE": [
+    "1.0.0"
+  ],
+  "DV_ZAHLUNG_MONAT": [
+    "1.0.0"
+  ],
+  "DV_ZAR_NR": [
+    "1.0.0"
+  ],
+  "DV_ZEMIS_NR": [
+    "1.0.0"
+  ],
+  "DV_ZONE_AGR": [
+    "1.0.0"
+  ],
+  "DV_ZONE_HH_SE": [
+    "1.0.0"
+  ],
+  "DV_ZONE_SE": [
+    "1.0.0"
+  ],
+  "DV_ZSR_RFR": [
+    "1.0.0"
+  ],
+  "DV_ZUGESPROCHENE_LEISTUNG": [
+    "1.0.0"
+  ],
+  "DV_ZULC": [
+    "1.0.0"
+  ],
+  "DV_ZUORDNUNG_TEILSTATISTIK_SHS": [
+    "1.0.0"
+  ],
+  "DV_ZUSAETZLICHE_INVOLVIERTE_INSTITUTIONEN": [
+    "1.0.0"
+  ],
+  "DV_ZUSATZEINKOMMEN_SHS": [
+    "1.0.0"
+  ],
+  "DV_ZUTEILUNG_CD_N": [
+    "1.0.0"
+  ],
+  "EIGENTUMER": [
+    "1.0.0"
+  ],
+  "EINDIENST": [
+    "1.0.0"
+  ],
+  "EINWANDERUNG_GRUND": [
+    "1.0.0"
+  ],
+  "EMBARGO_DATE": [
+    "1.0.0"
+  ],
+  "EMPLOY_EMP": [
+    "1.0.0"
+  ],
+  "EMPLOY_FTE": [
+    "1.0.0"
+  ],
+  "ENTERPRISE_GROUP_TYPE": [
+    "1.0.0"
+  ],
+  "ENTERPRISE_OR_PRIVATE": [
+    "2020.0.0"
+  ],
+  "ERVFB": [
+    "1.0.0"
+  ],
+  "ESKILL2_G": [
+    "1.0.0"
+  ],
+  "ESTAT": [
+    "1.0.0"
+  ],
+  "EUKOST": [
+    "1.0.0"
+  ],
+  "euPersonId": [
+    "1.0.0"
+  ],
+  "euPersonIdCategory": [
+    "1.0.0"
+  ],
+  "EXP_UNIT": [
+    "1.0.0"
+  ],
+  "FAMILY_REUNION": [
+    "1.0.0"
+  ],
+  "FAMILYSIT_MODUA": [
+    "1.0.0"
+  ],
+  "FINANZIELLE_SITUATION": [
+    "1.0.0"
+  ],
+  "foreignTown": [
+    "1.0.0"
+  ],
+  "foreignZipCode": [
+    "1.0.0"
+  ],
+  "FORMLEVEL": [
+    "1.0.0"
+  ],
+  "FORMULARTYP_ID": [
+    "1.0.0"
+  ],
+  "FORST_ZONE": [
+    "1.0.0"
+  ],
+  "FREQ": [
+    "2.1.0",
+    "2.0.0"
+  ],
+  "GAPHW": [
+    "1.0.0"
+  ],
+  "GAPSW": [
+    "1.0.0"
+  ],
+  "GAPTO": [
+    "1.0.0"
+  ],
+  "GAZWOT": [
+    "1.0.0"
+  ],
+  "GBAUPS": [
+    "1.0.0"
+  ],
+  "GDE_BEZ": [
+    "2021.3.0"
+  ],
+  "GETYP_GEMTYP": [
+    "1.0.0"
+  ],
+  "GEW_WH_CAL": [
+    "1.0.0"
+  ],
+  "GKODSSCE": [
+    "1.0.0"
+  ],
+  "GROUP_MEMBER": [
+    "1.0.0"
+  ],
+  "GROUP_MEMBER_ROLE": [
+    "1.0.0"
+  ],
+  "GROUP_TYPE": [
+    "1.0.0"
+  ],
+  "GRUND_AUFLOESUNG": [
+    "1.0.0"
+  ],
+  "GSEL": [
+    "1.0.0"
+  ],
+  "HAUSHALTSGROESSE_W": [
+    "1.0.0"
+  ],
+  "HAUSHALTSGROESSE_Z": [
+    "1.0.0"
+  ],
+  "HAUSHALTSTYP_W": [
+    "1.0.0"
+  ],
+  "HAUSHALTSTYP_W_E01": [
+    "1.0.0"
+  ],
+  "HAUSHALTSTYP_Z": [
+    "1.0.0"
+  ],
+  "HGDE_GDE": [
+    "1.0.0"
+  ],
+  "HHBYPLACEBIRTHPERM": [
+    "1.0.0"
+  ],
+  "HH_FAMU25": [
+    "1.0.0"
+  ],
+  "HH_FAMU25_CHILDREN": [
+    "1.0.0"
+  ],
+  "HLW": [
+    "1.0.0"
+  ],
+  "HOLZ_ART": [
+    "1.0.0"
+  ],
+  "HOUSEHOLDCLASSIFICATION": [
+    "1.0.0"
+  ],
+  "householdId": [
+    "1.0.0"
+  ],
+  "HS_CODE_LV5": [
+    "1.0.0"
+  ],
+  "ICD10_MS": [
+    "1.0.0"
+  ],
+  "ID_COMPENSATION": [
+    "1.0.0"
+  ],
+  "ID_CONSULTATION": [
+    "1.0.0"
+  ],
+  "IMPI_STATUS": [
+    "1.0.0"
+  ],
+  "IMP_UNIT": [
+    "1.0.0"
+  ],
+  "INCOMEQUALITYID": [
+    "1.0.0"
+  ],
+  "INCOMETYPEID": [
+    "1.0.0"
+  ],
+  "INDICATEURS_aHBB": [
+    "1.0.0"
+  ],
+  "INSTR_ASSET": [
+    "1.11.0"
+  ],
+  "INTENSITE": [
+    "1.0.0"
+  ],
+  "ISCEDF2013_1": [
+    "1.0.0"
+  ],
+  "ISCEDF2013_2": [
+    "1.0.0"
+  ],
+  "ISCEDF2013_3": [
+    "1.0.0"
+  ],
+  "ISCEDP2011_1": [
+    "1.0.0"
+  ],
+  "ISCEDP2011_2": [
+    "1.0.0"
+  ],
+  "ISCEDP2011_3": [
+    "1.0.0"
+  ],
+  "ISCO_88_MAJORGROUP": [
+    "1.0.0"
+  ],
+  "ISCO_88_MINORGROUP": [
+    "1.0.0"
+  ],
+  "ISCO_88_SUBMAJORGROUP": [
+    "1.0.0"
+  ],
+  "ISCO_88_UNITGROUP": [
+    "1.0.0"
+  ],
+  "KLASSECH": [
+    "2020.0.0"
+  ],
+  "KLASSECH1": [
+    "4.0.0"
+  ],
+  "KLASSECH2": [
+    "4.0.0"
+  ],
+  "KLASSECH3": [
+    "4.0.0"
+  ],
+  "KLASSECH4": [
+    "4.0.0"
+  ],
+  "KOMMGEB": [
+    "1.0.0"
+  ],
+  "LABOURMARKETSTATUS_SHAPE": [
+    "1.0.0"
+  ],
+  "LAKEVIEW": [
+    "1.0.0"
+  ],
+  "LAND_TRADE_PARTNER": [
+    "2019.0.0"
+  ],
+  "LANGUAGES_ISO_639_1": [
+    "1.0.0"
+  ],
+  "LANGUAGESSYST": [
+    "4.0.0"
+  ],
+  "LAST_UPDATE": [
+    "1.0.0"
+  ],
+  "LEERWOHN_TYP": [
+    "1.0.0"
+  ],
+  "LEVEL_EDUC3": [
+    "1.0.0"
+  ],
+  "LN_SIZE_CLASS": [
+    "1.0.0"
+  ],
+  "locality": [
+    "1.0.0"
+  ],
+  "localPersonId": [
+    "1.0.0"
+  ],
+  "localPersonIdCategory": [
+    "1.0.0"
+  ],
+  "MAIN_RESIDENCE_CATEGORY": [
+    "1.0.0"
+  ],
+  "maritalCancelationReason": [
+    "1.0.0"
+  ],
+  "maritalDateOfSeparation": [
+    "1.0.0"
+  ],
+  "maritalDateOfSeparationFrom": [
+    "1.0.0"
+  ],
+  "maritalDateOfSeparationTill": [
+    "1.0.0"
+  ],
+  "maritalSeparation": [
+    "1.0.0"
+  ],
+  "maritalStatus": [
+    "1.0.0"
+  ],
+  "MATCHINGTYPE": [
+    "1.0.0"
+  ],
+  "MIG_STATUS_SIMP": [
+    "1.0.0"
+  ],
+  "MOBIL_privat-\u00f6ffentlich": [
+    "1.0.0"
+  ],
+  "MODE_OF_TRANSPORT_GOODS_AT_BORDER": [
+    "1.0.0"
+  ],
+  "MOUNTAINVIEW": [
+    "1.0.0"
+  ],
+  "mrMrs": [
+    "1.0.0"
+  ],
+  "MWST_CPT": [
+    "1.0.0"
+  ],
+  "NA_PRICES": [
+    "1.1.0"
+  ],
+  "NA_STO": [
+    "1.12.0"
+  ],
+  "NA_TABLEID": [
+    "1.0.0"
+  ],
+  "NATIONALITY_CATEGORY": [
+    "1.0.0"
+  ],
+  "nationalityStatus": [
+    "1.0.0"
+  ],
+  "nationalityValidFrom": [
+    "1.0.0"
+  ],
+  "NATURE_OF_GOOD": [
+    "2021.0.0"
+  ],
+  "NBAP": [
+    "1.0.0"
+  ],
+  "NOGA_CP59": [
+    "1.0.0"
+  ],
+  "NOGA_ESTAT38": [
+    "1.0.0"
+  ],
+  "NOGA_PIBC8": [
+    "1.0.0"
+  ],
+  "NOGA_R_D": [
+    "1.0.0"
+  ],
+  "NOISEEXPOSURE": [
+    "1.0.0"
+  ],
+  "NOT_ENTREPRISE_DATA_REASON": [
+    "1.0.0"
+  ],
+  "OBJECTTYPE": [
+    "1.0.0"
+  ],
+  "OBS_STATUS": [
+    "1.0.0"
+  ],
+  "OBS_VALUE": [
+    "1.0.0"
+  ],
+  "OCCUPATION_RATE_EXTRA": [
+    "1.0.0"
+  ],
+  "OCCUPATION_RATE_SHAPE": [
+    "1.0.0"
+  ],
+  "OCCUP_POSITION": [
+    "1.0.0"
+  ],
+  "OCCUP_POSITION_SHAPE": [
+    "1.0.0"
+  ],
+  "officialProofMaritalStatusYesNo": [
+    "1.0.0"
+  ],
+  "organisationName": [
+    "1.0.0"
+  ],
+  "organisationNameAddOn1": [
+    "1.0.0"
+  ],
+  "organisationNameAddOn2": [
+    "1.0.0"
+  ],
+  "otherPersonId": [
+    "1.0.0"
+  ],
+  "otherPersonIdCategory": [
+    "1.0.0"
+  ],
+  "OWNEROCCUPIEDORRENTED": [
+    "1.0.0"
+  ],
+  "PANZGEB": [
+    "1.0.0"
+  ],
+  "PANZWHG": [
+    "1.0.0"
+  ],
+  "PENS_FUNDTYPE": [
+    "1.0.0"
+  ],
+  "personAliasName": [
+    "1.0.0"
+  ],
+  "personAllianceName": [
+    "1.0.0"
+  ],
+  "personCallFirstName": [
+    "1.0.0"
+  ],
+  "personComesFromStatus": [
+    "1.0.0"
+  ],
+  "personDeclaredForeignerFirstName": [
+    "1.0.0"
+  ],
+  "personDeclaredForeignerName": [
+    "1.0.0"
+  ],
+  "personFirstNameOnForeignPassport": [
+    "1.0.0"
+  ],
+  "personGoesToStatus": [
+    "1.0.0"
+  ],
+  "personNameOnForeignPassport": [
+    "1.0.0"
+  ],
+  "personOriginalName": [
+    "1.0.0"
+  ],
+  "personOtherName": [
+    "1.0.0"
+  ],
+  "personTitle": [
+    "1.0.0"
+  ],
+  "personTypeOfHousehold": [
+    "1.0.0"
+  ],
+  "PFKEY_GVS": [
+    "1.0.0"
+  ],
+  "placeOfBirthStatus": [
+    "1.0.0"
+  ],
+  "placeOfDeathStatus": [
+    "1.0.0"
+  ],
+  "placeOfOriginCanton": [
+    "1.0.0"
+  ],
+  "placeOfOriginHistoryMunicipalityId": [
+    "1.0.0"
+  ],
+  "placeOfOriginId": [
+    "1.0.0"
+  ],
+  "placeOfOriginName": [
+    "1.0.0"
+  ],
+  "POSPROF": [
+    "1.0.0"
+  ],
+  "postOfficeBoxNumber": [
+    "1.0.0"
+  ],
+  "postOfficeBoxText": [
+    "1.0.0"
+  ],
+  "POVCONCEPT": [
+    "1.0.0"
+  ],
+  "PRIMARYORSECONDARYHOME": [
+    "1.0.0"
+  ],
+  "PRODIMA": [
+    "1.0.0"
+  ],
+  "PRODUCT": [
+    "1.0.0"
+  ],
+  "PROVIDERCODE": [
+    "1.0.0"
+  ],
+  "PUBLIC_OR_PRIVATE": [
+    "1.0.0"
+  ],
+  "REGION_REF": [
+    "1.1.0",
+    "1.0.0"
+  ],
+  "REGION_STATE": [
+    "1.0.0"
+  ],
+  "religion": [
+    "1.0.0"
+  ],
+  "RELIGIONSSYST": [
+    "3.3.0"
+  ],
+  "religionValidFrom": [
+    "1.0.0"
+  ],
+  "residenceArrivalDate": [
+    "1.0.0"
+  ],
+  "residenceDepartureDate": [
+    "1.0.0"
+  ],
+  "residenceMovingDate": [
+    "1.0.0"
+  ],
+  "residencePermit": [
+    "1.0.0"
+  ],
+  "residencePermitEntryDate": [
+    "1.0.0"
+  ],
+  "residencePermitValidFrom": [
+    "1.0.0"
+  ],
+  "residencePermitValidTill": [
+    "1.0.0"
+  ],
+  "restrictedVotingAndElectionRightFederation": [
+    "1.0.0"
+  ],
+  "RV_BODY_SHAPE": [
+    "1.0.0"
+  ],
+  "RV_CO2_NEDC": [
+    "1.0.0"
+  ],
+  "RV_CO2_WLTP": [
+    "1.0.0"
+  ],
+  "RV_DRIVETRAIN": [
+    "1.0.0"
+  ],
+  "RV_ELECTR_CONSUMPTION_WLTP_CAR": [
+    "1.0.0"
+  ],
+  "RV_EMPTY_WEIGHT": [
+    "1.0.0"
+  ],
+  "RV_ENGINE_CAPACITY_MOTORCYCLE": [
+    "1.0.0"
+  ],
+  "RV_EU_EMISSION_STANDARD": [
+    "1.0.0"
+  ],
+  "RV_EU_VEHICLE_TYPE": [
+    "1.0.0"
+  ],
+  "RV_FUEL": [
+    "1.0.0"
+  ],
+  "RV_GEARCHANGE": [
+    "1.0.0"
+  ],
+  "RV_LOAD_CAPACITY": [
+    "1.0.0"
+  ],
+  "RV_MAKE": [
+    "1.0.0"
+  ],
+  "RV_MOTOR_POWER": [
+    "1.0.0"
+  ],
+  "RV_MOTOR_POWER_MOTORCYCLE": [
+    "1.0.0"
+  ],
+  "RV_NUMBER_OF_AXLES": [
+    "1.0.0"
+  ],
+  "RV_OWNER_AGE": [
+    "1.0.0"
+  ],
+  "RV_OWNER_TYPE": [
+    "1.0.0"
+  ],
+  "RV_PARTICULATE_FILTER": [
+    "1.0.0"
+  ],
+  "RV_REGISTRATION_TYPE": [
+    "1.0.0"
+  ],
+  "RV_SEATS": [
+    "1.0.0"
+  ],
+  "RV_STANDIG_PLACES": [
+    "1.0.0"
+  ],
+  "RV_TOTAL_WEIGHT_AGRICULTURAL_VEH": [
+    "1.0.0"
+  ],
+  "RV_TOTAL_WEIGHT_GOODS_VEHICLES": [
+    "1.0.0"
+  ],
+  "RV_TOTAL_WEIGHT_TRAILERS": [
+    "1.0.0"
+  ],
+  "RV_VEHICLE_AGE": [
+    "1.0.0"
+  ],
+  "RV_VEHICLE_GROUP_AND_TYPE": [
+    "1.0.0"
+  ],
+  "SBN2000_CLASS": [
+    "1.0.0"
+  ],
+  "SBN2000_DIVISION": [
+    "1.0.0"
+  ],
+  "SBN2000_GROUP": [
+    "1.0.0"
+  ],
+  "SBN2000_TYPE": [
+    "1.0.0"
+  ],
+  "SBN90_CLASS": [
+    "1.0.0"
+  ],
+  "SBN90_DIVISION": [
+    "1.0.0"
+  ],
+  "SBN90_GROUP": [
+    "1.0.0"
+  ],
+  "SBN90_TYPE": [
+    "1.0.0"
+  ],
+  "SECONDAPPARTEMENTQUOTA": [
+    "1.0.0"
+  ],
+  "SECTOR": [
+    "1.12.0"
+  ],
+  "SECU_ORDI": [
+    "1.0.0"
+  ],
+  "SECU_SMART": [
+    "1.0.0"
+  ],
+  "SEPARATION": [
+    "1.0.0"
+  ],
+  "sex": [
+    "1.0.0"
+  ],
+  "SINGLEFAMILYHOUSETYPE": [
+    "1.0.0"
+  ],
+  "SLOPE": [
+    "1.0.0"
+  ],
+  "SORTIMENT": [
+    "1.0.0"
+  ],
+  "SOURCE_FTE": [
+    "1.0.0"
+  ],
+  "SOURCE_PREVOYANCE_VIEILLESSE": [
+    "1.0.0"
+  ],
+  "SOURCE_WS": [
+    "1.0.0"
+  ],
+  "SPC2021": [
+    "1.0.0"
+  ],
+  "STATISTICAL_OPERATION": [
+    "1.0.0"
+  ],
+  "STRASSENTYP": [
+    "1.0.0"
+  ],
+  "SUBCLASS_SIGN_LANGUAGE": [
+    "1.0.0"
+  ],
+  "swissZipCodeId": [
+    "1.0.0"
+  ],
+  "TARES_LV3": [
+    "2017.0.0"
+  ],
+  "TAXBURDEN": [
+    "1.0.0"
+  ],
+  "TELMOB_SMART": [
+    "1.0.0"
+  ],
+  "TEST": [
+    "0.1.0"
+  ],
+  "test_cos_2024_05_03_2a": [
+    "1.0.0"
+  ],
+  "TEST_LTP2": [
+    "1.0.0"
+  ],
+  "TIC_EXTRA": [
+    "1.0.0"
+  ],
+  "TIME_PERIOD": [
+    "1.0.0"
+  ],
+  "TOTAL": [
+    "1.0.0"
+  ],
+  "TRANSPORT_TYPE": [
+    "1.0.0"
+  ],
+  "TRAVELTIMETOCENTERS": [
+    "1.0.0"
+  ],
+  "TYP_AHVNR": [
+    "1.0.0"
+  ],
+  "TYP_BFS_POLVOTE": [
+    "1.0.0"
+  ],
+  "TYPE_EXAMEN_aHBB": [
+    "1.0.0"
+  ],
+  "TYPE_OF_CARGO": [
+    "1.0.0"
+  ],
+  "TYPEOFCITIZACQ": [
+    "1.0.0"
+  ],
+  "TYPE_OF_GOODS_NST2007": [
+    "1.0.0"
+  ],
+  "typeOfResidence": [
+    "1.0.0"
+  ],
+  "TYPE_PRESTATIONS_DIFFUSION": [
+    "1.0.0"
+  ],
+  "UMZUG": [
+    "1.0.0"
+  ],
+  "UNIT_MEASURE": [
+    "1.2.0",
+    "1.1.0",
+    "1.0.0"
+  ],
+  "UNIT_MULT": [
+    "1.1.0"
+  ],
+  "USEOPINV": [
+    "1.0.0"
+  ],
+  "USINTINV": [
+    "1.0.0"
+  ],
+  "USLAUAUS": [
+    "1.0.0"
+  ],
+  "USNEBPRODEIN": [
+    "1.0.0"
+  ],
+  "VALUATION": [
+    "1.6.0"
+  ],
+  "VCODE": [
+    "1.0.0"
+  ],
+  "VEHICLE_BRAND": [
+    "1.0.0"
+  ],
+  "VERKEHRSMITTEL_GUETERVERKEHR": [
+    "1.0.0"
+  ],
+  "VERKEHRSMITTEL_PERSONENVERKEHR": [
+    "1.0.0"
+  ],
+  "VERSION_CC": [
+    "1.0.0"
+  ],
+  "_VOCAB_I14Y_RELATIONSHIP_ROLE_old": [
+    "1.0.0"
+  ],
+  "VORLAGE_POLVOTE": [
+    "1.0.0"
+  ],
+  "WAPHW": [
+    "1.0.0"
+  ],
+  "WAPSW": [
+    "1.0.0"
+  ],
+  "WAPTO": [
+    "1.0.0"
+  ],
+  "WAZIM_DIFF": [
+    "1.1.0",
+    "1.0.0"
+  ],
+  "WSEL": [
+    "1.0.0"
+  ],
+  "WS_KMU_KONTENPLAN": [
+    "1.0.0"
+  ],
+  "YEAROFCONSTRUCTION": [
+    "1.0.0"
+  ],
+  "ZGB1_T": [
+    "1.0.0"
+  ],
+  "ZOLL_TARES_EXPORT": [
+    "2021.1.0"
+  ],
+  "ZOLL_TARES_IMPORT": [
+    "2021.7.0"
+  ]
+}

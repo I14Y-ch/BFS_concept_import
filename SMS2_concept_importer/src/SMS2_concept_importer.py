@@ -8,9 +8,6 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-
-# TODO: Create user if it does not exist
-
 def _api_get_request(url: str, token) -> Optional[Dict[str, Any]]:
     """Make a GET request to the API and return JSON response."""
     headers = {
