@@ -192,6 +192,8 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Files to ignore for pushing on the public repository
 SMS2_concept_importer/output/CL.json
 SMS2_concept_importer/output/CLE.json
 SMS2_concept_importer/output/concept.json
