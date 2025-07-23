@@ -192,3 +192,9 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+SMS2_concept_importer/output/CL.json
+SMS2_concept_importer/output/CLE.json
+SMS2_concept_importer/output/concept.json
+SMS2_concept_importer/output/I14Y_codelistentries.json
+SMS2_concept_importer/output/i14y_response.json
+SMS2_concept_importer/output/sms2_response.json
