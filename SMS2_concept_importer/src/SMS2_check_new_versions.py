@@ -36,7 +36,7 @@ I14Y_token = os.environ.get("I14Y_token")
 
 # API URLs to get list of concepts
 i14y_url = "https://api.i14y.admin.ch/api/public/v1/concepts?publisherIdentifier=CH1&page=1&pageSize=10000"
-sms2_url = "https://sis-sms.app.cfap02.atlantica.admin.ch/api/DefinedVariables?page=1&pageSize=10000"
+sms2_url = "https://sms-be.sis.bfs.admin.ch/api/DefinedVariables?page=1&pageSize=10000"
 
 # Fetch data from both APIs
 i14y_data = _api_get_request(i14y_url, I14Y_token)

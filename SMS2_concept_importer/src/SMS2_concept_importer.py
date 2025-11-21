@@ -2,7 +2,7 @@ import json
 import requests
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, List
 
 import os
 from dotenv import load_dotenv
@@ -55,9 +55,12 @@ def _api_post_request_file(url, token, payload):
 
 
 def get_DV(dv_id: str, token) -> Optional[Dict[str, Any]]:
-    """gets the DV metadata"""
+    """Gets the DV metadata"""
     url = f"https://sms-be.sis.bfs.admin.ch/api/DefinedVariables/{dv_id}"
-    return _api_get_request(url, token)
+    response = _api_get_request(url, token)
+    if response is None:
+        print(f"Failed to fetch DV from URL: {url}")
+    return response
 
 
 def get_CL(cl_id: str, token) -> Optional[Dict[str, Any]]:
@@ -74,9 +77,8 @@ def get_CLE(cl_id: str, token) -> Optional[Dict[str, Any]]:
 def get_Person(email: str, token, environment="DEV") -> Optional[Dict[str, Any]]:
     """gets the person metadata"""
     base_urls = {
-        "DEV": f"https://dcat-d.app.cfap02.atlantica.admin.ch/api/Persons/{email}",
-        "REF": f"https://dcat-r.app.cfap02.atlantica.admin.ch/api/Persons/{email}",
-        "ABN": f"https://dcat-a.app.cfap02.atlantica.admin.ch/api/Persons/{email}",
+        "DEV": f"https://core.i14y.d.c.bfs.admin.ch/api/Persons{email}",
+        "ABN": f"https://core.i14y.a.c.bfs.admin.ch/api/Persons{email}",
         "PROD": f"https://dcat.app.cfap02.atlantica.admin.ch/api/Persons/{email}"
     }
 
@@ -89,14 +91,13 @@ def get_Person(email: str, token, environment="DEV") -> Optional[Dict[str, Any]]
 
 def put_registrationStatus(conceptId, token, environment="DEV"):
     base_urls = {
-        #"DEV": f"https://api-d.i14y.admin.ch/api/partner/v1/concepts/{conceptId}/registration-status?status=Recorded",
-        #"REF": f"https://api-r.i14y.admin.ch/api/partner/v1/concepts/{conceptId}/registration-status?status=Recorded",
-        #"ABN": f"https://api-a.i14y.admin.ch/api/partner/v1/concepts/{conceptId}/registration-status?status=Recorded",
-        #"PROD": f"https://api.i14y.admin.ch/api/partner/v1/concepts/{conceptId}/registration-status?status=Recorded"
-        "DEV": f"https://api-d.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/registration-status?status=Recorded",
-        "REF": f"https://api-r.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/registration-status?status=Recorded",
-        "ABN": f"https://api-a.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/registration-status?status=Recorded",
-        "PROD": f"https://api.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/registration-status?status=Recorded"
+        "DEV": f"https://api-d.i14y.admin.ch/api/partner/v1/concepts/{conceptId}/registration-status?status=Recorded",
+        "ABN": f"https://api-a.i14y.admin.ch/api/partner/v1/concepts/{conceptId}/registration-status?status=Recorded",
+        "PROD": f"https://api.i14y.admin.ch/api/partner/v1/concepts/{conceptId}/registration-status?status=Recorded"
+        #"DEV": f"https://api-d.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/registration-status?status=Recorded",
+        #"REF": f"https://api-r.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/registration-status?status=Recorded",
+        #"ABN": f"https://api-a.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/registration-status?status=Recorded",
+        #"PROD": f"https://api.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/registration-status?status=Recorded"
     }
 
     base_url = base_urls.get(environment.upper())
@@ -110,10 +111,13 @@ def put_registrationStatus(conceptId, token, environment="DEV"):
 
 def put_publicationLevel(conceptId, token, environment="DEV"):
     base_urls = {
-        "DEV": f"https://api-d.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/publication-level?level=Public",
-        "REF": f"https://api-r.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/publication-level?level=Public",
-        "ABN": f"https://api-a.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/publication-level?level=Public",
-        "PROD": f"https://api.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/publication-level?level=Public"
+        "DEV": f"https://api-d.i14y.admin.ch/api/partner/v1/concepts/{conceptId}/publication-level?level=Public",
+        "ABN": f"https://api-a.i14y.admin.ch/api/partner/v1/concepts/{conceptId}/publication-level?level=Public",
+        "PROD": f"https://api.i14y.admin.ch/api/partner/v1/concepts/{conceptId}/publication-level?level=Public"
+        #"DEV": f"https://api-d.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/publication-level?level=Public",
+        #"REF": f"https://api-r.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/publication-level?level=Public",
+        #"ABN": f"https://api-a.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/publication-level?level=Public",
+        #"PROD": f"https://api.app.cfap02.atlantica.admin.ch/api/concepts/{conceptId}/publication-level?level=Public"
     }
 
     base_url = base_urls.get(environment.upper())
@@ -128,10 +132,13 @@ def put_publicationLevel(conceptId, token, environment="DEV"):
 def post_Person(iopPerson, token, environment="DEV") -> Optional[Dict[str, Any]]:
     """gets the peron metadata"""
     base_urls = {
-        "DEV": "https://dcat-d.app.cfap02.atlantica.admin.ch/api/Persons/",
-        "REF": "https://dcat-r.app.cfap02.atlantica.admin.ch/api/Persons/",
-        "ABN": "https://dcat-a.app.cfap02.atlantica.admin.ch/api/Persons/",
+        "DEV": "https://core.i14y.d.c.bfs.admin.ch/api/Persons",
+        "ABN": "https://core.i14y.a.c.bfs.admin.ch/api/Persons",
         "PROD": "https://dcat.app.cfap02.atlantica.admin.ch/api/Persons/"
+        #"DEV": "https://dcat-d.app.cfap02.atlantica.admin.ch/api/Persons/",
+        #"REF": "https://dcat-r.app.cfap02.atlantica.admin.ch/api/Persons/",
+        #"ABN": "https://dcat-a.app.cfap02.atlantica.admin.ch/api/Persons/",
+        #"PROD": "https://dcat.app.cfap02.atlantica.admin.ch/api/Persons/"
     }
 
     base_url = base_urls.get(environment.upper())
@@ -189,6 +196,59 @@ def map_CLE(CLE):
         "parentCode": CLE.get("parentCode", None)
     }
 
+def sort_codelist_entries(cle_data: List[Dict]) -> List[Dict]:
+    """
+    Sorts codelist entries such that entries with a `code` mentioned in another entry's `parentCode`
+    come first.
+
+    Args:
+        cle_data (List[Dict]): List of codelist entries to sort.
+
+    Returns:
+        List[Dict]: Sorted list of codelist entries.
+    """
+    from collections import defaultdict, deque
+
+    # Build a graph and in-degree count
+    graph = defaultdict(list)
+    in_degree = defaultdict(int)
+    code_to_entry = {}
+
+    for entry in cle_data:
+        code = entry.get("code")
+        parent_code = entry.get("parentCode")
+
+        code_to_entry[code] = entry  # Map code to the entry for quick lookup
+
+        if parent_code:
+            graph[parent_code].append(code)
+            in_degree[code] += 1
+
+        # Ensure all codes are in the in-degree map
+        if code not in in_degree:
+            in_degree[code] = 0
+
+    # Perform topological sort
+    sorted_entries = []
+    queue = deque([code for code in in_degree if in_degree[code] == 0])
+
+    while queue:
+        current = queue.popleft()
+        if current in code_to_entry:
+            sorted_entries.append(code_to_entry[current])
+
+        for neighbor in graph[current]:
+            in_degree[neighbor] -= 1
+            if in_degree[neighbor] == 0:
+                queue.append(neighbor)
+
+    # Check for cycles (if there are entries left with in-degree > 0)
+    if len(sorted_entries) != len(cle_data):
+        raise ValueError("Cycle detected in codelist entries. Sorting not possible.")
+
+    return sorted_entries
+
+
 # Create the JSON object to write to I14Y. The object is different depending on the type of the defined variable
 def map_DV(DV):
     if DV['definedVariableType'] == "CodeList":
@@ -224,7 +284,11 @@ def map_DV(DV):
             }
         }
 
-        CLE_data = {"data": [map_CLE(obj) for obj in CLE]}
+        # Map and sort CLE data before writing to file
+        mapped_cle_data = [map_CLE(obj) for obj in CLE]
+        sorted_cle_data = sort_codelist_entries(mapped_cle_data)
+        CLE_data = {"data": sorted_cle_data}
+
         json.dump(CLE_data, open(
             "SMS2_concept_importer/output/I14Y_codelistentries.json", "w"), indent=4)
 
@@ -317,10 +381,11 @@ def map_DV(DV):
     return concept_data, CLE_data
 
 def check_users(iopPerson, I14Y_token, environment="DEV"):
+    print(iopPerson)
     iopPersonToCheck = get_Person(iopPerson, I14Y_token, environment)
     print(iopPersonToCheck)
     
-    if iopPersonToCheck is None:
+    if not iopPersonToCheck:
         new_iopPersonToCheck = [
             {
                 "givenName": extract_between_dot_and_at_last_name(iopPerson),
@@ -337,9 +402,8 @@ def check_users(iopPerson, I14Y_token, environment="DEV"):
 
 def post_DV(concept_data, CLE_data, DV, I14Y_token, environment="DEV"):
     base_urls = {
-        "DEV": "https://iop-partner-d.app.cfap02.atlantica.admin.ch/api/concepts",
-        "REF": "https://iop-partner-r.app.cfap02.atlantica.admin.ch/api/concepts",
-        "ABN": "https://iop-partner-a.app.cfap02.atlantica.admin.ch/api/concepts",
+        "DEV": "https://partner.i14y.d.c.bfs.admin.ch/api/concepts",        
+        "ABN": "https://partner.i14y.a.c.bfs.admin.ch/api/concepts",
         "PROD": "https://iop-partner.app.cfap02.atlantica.admin.ch/api/concepts"
     }
 
@@ -374,9 +438,14 @@ def post_DV(concept_data, CLE_data, DV, I14Y_token, environment="DEV"):
 def Copy_DV_to_I14Y(dv_id, SMS2_token, I14Y_token, I14Y_environment="DEV"):
     #Get the DV from SMS2
     DV = get_DV(dv_id, SMS2_token)
+    if DV is None:
+        raise ValueError(f"Failed to fetch Defined Variable (DV) with ID: {dv_id}")
 
     # Map the DV to objects compatible with I14Y
     concept_data, CLE_data = map_DV(DV)
+    
+    print(concept_data)
+    print(CLE_data)
 
     # Check if the users exist in the I14Y database, and create the user if it does not exist
     check_users(iopPerson = DV["responsibleDeputy"]["identifier"], I14Y_token = I14Y_token, environment=I14Y_environment)
@@ -391,10 +460,13 @@ def Copy_DV_to_I14Y(dv_id, SMS2_token, I14Y_token, I14Y_environment="DEV"):
 # Variables
 SMS2_token = os.environ.get("SMS2_token")
 I14Y_token = os.environ.get("I14Y_token") # requires IOS token
-I14Y_environment="DEV" # or "REF", "ABN", "PROD"
+I14Y_environment="PROD" # or "REF", "ABN", "PROD"
 
-dv_id = "08d9e176-b0cf-c0fe-abab-861d6026f0ac"# LAND_TRADE_PARTNER
+dv_id = "08de1d3a-97f0-6516-bf36-9155692466ee"
+# dv_id = "08da3722-3590-881d-ab32-5591e8942da4"# AREA_NOAS
+# dv_id = "08d9e176-b0cf-c0fe-abab-861d6026f0ac"# LAND_TRADE_PARTNER
 # dv_id = "08dac62e-ab42-57fc-8db1-9e36ad2655c1" # DV_COM_CHANNEL_EUROPASS
+
 
 concept_id = Copy_DV_to_I14Y(dv_id, SMS2_token, I14Y_token, I14Y_environment=I14Y_environment)
 
